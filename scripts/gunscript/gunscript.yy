@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"gunscript",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gunscript",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/topgun/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
