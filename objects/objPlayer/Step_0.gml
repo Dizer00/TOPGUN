@@ -16,7 +16,7 @@
 		boost=3
 		invisible=true
 		len-=1
-		if len==-1{
+		if len<0{
 		len=5
 		boost=1
 		invisible=false
