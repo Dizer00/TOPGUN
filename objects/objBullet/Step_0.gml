@@ -11,10 +11,11 @@
 	
 //столкновения
 	// уничтожается при столкновении с блоком или слишком далеко
-	if ( place_meeting(x,y, objBlocksolid) )
-	{
-		destroy=true;
-	}
+	for (var i=0; i<array_length(global.Obj_notsolid_list);i+=1)
+		if ( place_meeting(x,y, global.Obj_notsolid_list[i]) )
+		{
+			destroy=true;
+		}
 	// расстояние, которое может пройти пуля или уничтожится
 	if (time>max_time)
 	{

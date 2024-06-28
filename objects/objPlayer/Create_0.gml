@@ -3,6 +3,10 @@ moveDir = 0;
 moveSpd = 5;
 xspd = 0;
 yspd = 0;
+//  стата типо хп
+hp=0;
+// будет ли игрок сасать
+invisible=false
 
 // спрайты оружия
 centreYoffset=-30;
