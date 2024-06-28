@@ -18,7 +18,7 @@
 		invisible=true
 		len-=1
 		if len<0{
-		len=8
+		len=9
 		boost=1
 		invisible=false
 		cool_cur=0
