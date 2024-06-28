@@ -36,5 +36,4 @@ if (alarm[1] == -1)
         bullet.direction = dirplayer;
     }
 
-
 if hp <= 0 instance_destroy();

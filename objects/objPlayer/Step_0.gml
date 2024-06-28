@@ -10,6 +10,22 @@
 	attackKey= mouse_check_button_released(mb_left);
 #endregion
 
+#region ультра каст
+if qKey==1 and charge>=5{
+	x=true
+	while x==true{
+		i=random(array_length(global.Enemies_list))
+		show_message(global.Enemies_list)
+		obj=global.Enemies_list[i]
+		nea=instance_nearest(x, y, obj)
+		if (instance_exists(obj)) and nea!=-4
+			x=false
+			nea.hp-=5
+			instance_create_layer(nea.x,nea.y,layer.id,Object20)}
+}
+
+#endregion
+
 #region супер мега отрыжка бутерброда (молюсь богу ебли чтобы не пропало)
 	if cool_cur<cool_max{
 	cool_cur+=1}
@@ -24,6 +40,10 @@
 		invisible=false
 		cool_cur=0
 		}
+	}
+	else{
+		boost=1
+		invisible=false
 	}
 #endregion
 
@@ -117,12 +137,7 @@ shootimer--;
 
 if attackKey
 {
-<<<<<<< Updated upstream
-	alarm[0]=2;
-	instance_create_depth(x+weaponOffestDist, centreY, 1, obj_hit);
-=======
 	sprite_index=sprPlayermech;
 	instance_create_depth(x+weaponOffestDist, centreY, 1, obj_hit);
 	alarm[0]=2;
->>>>>>> Stashed changes
 }
