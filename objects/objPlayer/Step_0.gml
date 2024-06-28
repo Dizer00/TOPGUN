@@ -75,16 +75,14 @@
 
 #region спрайты поворота игрока
 
-	if ( cos(aimdir) >0 )
+	if ( aimdir<=90 || aimdir>=270 )
 	{
 		image_xscale=1;
 	}
-	
-	if ( cos(aimdir) < 0 )
+	else
 	{
 		image_xscale=-1;
 	}
-	
 	if (xspd==0 && yspd==0) {image_index=0;}
 
 	#endregion
