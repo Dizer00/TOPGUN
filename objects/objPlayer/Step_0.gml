@@ -63,6 +63,7 @@
 	
 	#endregion 
 
+
 #region прицеливание
 
 	centreY=y+centreYoffset;
@@ -74,10 +75,8 @@
 
 #region спрайты поворота игрока
 
-	// установка направления спрайта
 	if (xspd==0 && yspd==0) {image_index=0;}
 
-	
 	#endregion
 
 #region стрельба
