@@ -120,6 +120,7 @@ shootimer--;
 if attackKey
 {
 	sprite_index=sprPlayermech;
+<<<<<<< Updated upstream
 	sprite_index=sprPlayermech;
 	sprite_index=sprPlayermech;
 	sprite_index=sprPlayermech;
@@ -130,4 +131,8 @@ if attackKey
 	sprite_index=sprPlayermech;
 	instance_create_depth(x+weaponOffestDist, centreY, 1, obj_hit);
 	sprite_index=sprPlayer;
+=======
+	instance_create_depth(x+weaponOffestDist, centreY, 1, obj_hit);
+	alarm[0]=2;
+>>>>>>> Stashed changes
 }
