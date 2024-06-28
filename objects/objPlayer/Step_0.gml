@@ -112,11 +112,11 @@ if (shootKey && shootimer<=0)
 shootimer--;
 #endregion
 
-#region ближний бой
-
-if attackKey
-{
-	sprite_index=sprPlayermech;
-	instance_create_depth(x+weaponOffestDist, centreY, 1, obj_hit);
-	alarm[0]=2;
-}
+//#region ближний бой
+//
+//if attackKey
+//{
+//	sprite_index=sprPlayermech;
+//	instance_create_depth(x+weaponOffestDist, centreY, 1, obj_hit);
+//	alarm[0]=1;
+//}
