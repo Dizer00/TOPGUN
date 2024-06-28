@@ -7,7 +7,7 @@ function createweapons( _sprite, _wlength, _bulletObj, _cooldown ) constructor
 	cooldown=_cooldown;
 }
 
-// СПИСОК ОБЬЕКТОВ С КОЛИЗИЕЙ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_________________
+// СПИСОК ОБЬЕКТОВ С КОЛИЗИЕЙ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_________!_______
 global.Obj_notsolid_list=[objBlock,Xyu]
 //лист ружий
 global.WeaponsList = {
