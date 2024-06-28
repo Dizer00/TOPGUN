@@ -20,7 +20,6 @@ if (point_distance(x, y, objPlayer.x, objPlayer.y) <= enemy_distance_to_player)
     // Останавливаем движение
     hspeed = 0;
     vspeed = 0;
-	pop=0
     
 }
 
