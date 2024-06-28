@@ -18,7 +18,7 @@
 		invisible=true
 		len-=1
 		if len<0{
-		len=9
+		len=8
 		boost=1
 		invisible=false
 		cool_cur=0
@@ -113,3 +113,7 @@ shootimer--;
 #endregion
 
 #region ближний бой
+
+if attackKey
+{
+	sprite_index=
