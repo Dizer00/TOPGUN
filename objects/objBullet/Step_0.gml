@@ -1,5 +1,6 @@
 //движение
 	xspd=lengthdir_x(spd,dir);
+	xspd+=lengthdir_x(spd_boost,dir_boost);
 	yspd=lengthdir_y(spd,dir);
 	
 	x+=xspd;
