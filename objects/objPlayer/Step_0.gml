@@ -8,6 +8,10 @@
 	shootKey= mouse_check_button(mb_left);
 #endregion
 
+#region
+
+#endregion
+
 #region движение
 	// вычисление нарпавления
 	var horizKey = rightKey - leftKey;
@@ -24,13 +28,13 @@
 	yspd = lengthdir_y(spd, moveDir);
 	
 	// коллизии
-	for (var i=0; i<array_length(global.Obj_notsolid_list);i+=1)
-		if place_meeting(x+xspd, y, global.Obj_notsolid_list[i])
+	for (var i=0; i<array_length(global.Obj_solid_list);i+=1)
+		if place_meeting(x+xspd, y, global.Obj_solid_list[i])
 		{
 			xspd=0;
 		}
-	for (var i=0; i<array_length(global.Obj_notsolid_list);i+=1)
-		if place_meeting(x, y+yspd, global.Obj_notsolid_list[i])
+	for (var i=0; i<array_length(global.Obj_solid_list);i+=1)
+		if place_meeting(x, y+yspd, global.Obj_solid_list[i])
 		{
 			yspd=0;
 		}
