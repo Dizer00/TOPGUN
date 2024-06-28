@@ -9,6 +9,10 @@ function createweapons( _sprite, _wlength, _bulletObj, _cooldown ) constructor
 
 // СПИСОК ОБЬЕКТОВ С КОЛИЗИЕЙ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_________!_______
 global.Obj_solid_list=[objBlock,Xyu]
+<<<<<<< Updated upstream
+=======
+// СПИСОК ВРАГОВ ____________!"""""""""""""!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+>>>>>>> Stashed changes
 global.Enemies_list=[Object10,objPoludnica]
 //лист ружий
 global.WeaponsList = {
