@@ -9,7 +9,20 @@
 #endregion
 
 #region супер мега отрыжка бутерброда (молюсь богу ебли чтобы не пропало)
-	pop=0
+	if cool_cur<cool_max{
+	cool_cur+=1}
+	if shiftKey==1 && cool_cur==cool_max
+	{
+		boost=3
+		invisible=true
+		len-=1
+		if len==-1{
+		len=5
+		boost=1
+		invisible=false
+		cool_cur=0
+		}
+	}
 #endregion
 
 #region движение
@@ -24,8 +37,8 @@
 	inputLevel= clamp(inputLevel, 0,1)
 	spd = moveSpd * inputLevel;
 	
-	xspd = lengthdir_x(spd, moveDir);
-	yspd = lengthdir_y(spd, moveDir);
+	xspd = lengthdir_x(spd, moveDir)*boost;
+	yspd = lengthdir_y(spd, moveDir)*boost;
 	
 	// коллизии
 	for (var i=0; i<array_length(global.Obj_solid_list);i+=1)
