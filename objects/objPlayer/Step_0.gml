@@ -75,16 +75,8 @@
 
 #region спрайты поворота игрока
 
-	// установка направления спрайта
-	face=round(aimdir/90);
-	
-	if face == 4 {face = 0;} // то бишь 360 градусов
-	
 	if (xspd==0 && yspd==0) {image_index=0;}
-	
-	//установка спрайта
-	sprite_index=sprite[face];
-	
+
 	#endregion
 
 #region стрельба
