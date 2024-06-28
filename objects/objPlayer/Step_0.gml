@@ -24,6 +24,8 @@
 		cool_cur=0
 		}
 	}
+	else{
+		boost=1}
 #endregion
 
 #region движение
