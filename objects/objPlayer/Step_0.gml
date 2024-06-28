@@ -116,4 +116,4 @@ shootimer--;
 
 if attackKey
 {
-	sprite_index=
+	sprite_index=Sprite21}
