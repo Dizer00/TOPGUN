@@ -77,7 +77,7 @@ if (shootKey && shootimer<=0)
 	
 	with(bulletInst)
 	{
-		dir=other.aimdir;
+		dir+=other.aimdir;
 	}
 	
 }
