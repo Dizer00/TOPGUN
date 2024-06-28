@@ -15,7 +15,7 @@ aimdir=0;
 
 // спрайты передвижения
 face=2;
-sprite=[sprPlayerR, sprPlayerU, sprPlayerL];
+sprite=[sprPlayerR, sprPlayerU, sprPlayerL, sprPlayerD];
 
 // инфа о стрельбе
 	// баланс темпа стрельбы
