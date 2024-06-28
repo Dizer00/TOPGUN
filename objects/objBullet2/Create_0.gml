@@ -3,7 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
-spd_boost=abs(objPlayer.xspd+objPlayer.yspd)
-dir_boost=abs(objPlayer.moveDir)
+spd_boost=abs(objPlayer.xspd+objPlayer.yspd)/2
+dir_boost=abs(objPlayer.moveDir)/2
 spd=8;
 maxdist=400+(abs(spd_boost)*30);
