@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"hp",
-    "path":"folders/topgun/sprite/hp.yy",
+    "path":"folders/topgun/hp.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

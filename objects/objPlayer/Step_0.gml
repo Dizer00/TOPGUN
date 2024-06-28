@@ -116,4 +116,9 @@ shootimer--;
 
 if attackKey
 {
+<<<<<<< Updated upstream
 	sprite_index=Sprite21}
+=======
+	sprite_index=sprPlayermech;
+	instance_create_depth()
+>>>>>>> Stashed changes

@@ -44,8 +44,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"sprite",
-    "path":"folders/topgun/sprite.yy",
+    "name":"enemies",
+    "path":"folders/topgun/enemies.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
