@@ -25,6 +25,7 @@
 		}
 	}
 	else{
+		invisible=false
 		boost=1}
 #endregion
 
