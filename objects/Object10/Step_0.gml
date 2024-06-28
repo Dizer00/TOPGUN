@@ -5,6 +5,7 @@ var move_speed = 2; // Скорость движения противника
 // Получаем расстояние между противником и игроком
 var dist_x = objPlayer.x - x;
 var dist_y = objPlayer.y - y;
+cool+=1
 
 // Вычисляем угол между противником и игроком
 var dirplayer = point_direction(x,y,objPlayer.x, objPlayer.y)

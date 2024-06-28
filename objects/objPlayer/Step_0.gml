@@ -63,6 +63,7 @@
 	
 	#endregion 
 
+
 #region прицеливание
 
 	centreY=y+centreYoffset;

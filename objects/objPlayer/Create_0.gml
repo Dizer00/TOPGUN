@@ -9,7 +9,7 @@ cool_cur=50;
 len=5
 boost=1
 //  стата типо хп
-hp=0;
+hp=6;
 // будет ли игрок сасать
 invisible=false
 
