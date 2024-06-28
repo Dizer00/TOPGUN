@@ -1,8 +1,5 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-if cool>30{
-	cool=0
-other.hp-=1}
-if other.hp==0{
-	room_restart()
-}
+draw_self()
+draw_healthbar(x-20,y-80,x+20,y-65,((hp/maxhp)*100),c_black, c_red, c_lime,0,false,true)
+sprite_index=spr_bear
