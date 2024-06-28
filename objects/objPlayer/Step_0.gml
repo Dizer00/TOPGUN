@@ -43,19 +43,22 @@
 	
 	// коллизии
 	for (var i=0; i<array_length(global.Obj_solid_list);i+=1)
-		if place_meeting(x+xspd, y, global.Obj_solid_list[i])
+		if place_meeting(x+xspd, y, global.Obj_solid_list[i]) 
 		{
 			xspd=0;
 		}
-	for (var i=0; i<array_length(global.Obj_solid_list);i+=1)
+	for (var i=0; i<array_length(global.Obj_solid_list);i+=1) 
 		if place_meeting(x, y+yspd, global.Obj_solid_list[i])
 		{
 			yspd=0;
 		}
 	
 	// движение игрока
-	x+=xspd;
-	y+=yspd;
+	if x+xspd>0 and x+xspd < room_width{
+	x+=xspd;}
+	if y+yspd>0 and y+yspd < room_height{
+	y+=yspd;}
+	
 	
 	// глубина расположения (без использования слоев)
 	depth=-bbox_bottom;

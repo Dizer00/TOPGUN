@@ -11,6 +11,7 @@ cool+=1
 var dirplayer = point_direction(x,y,objPlayer.x, objPlayer.y)
 
 
+
 // Двигаем противника 
 if tick_av{
 tick+=1
