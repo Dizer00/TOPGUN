@@ -117,5 +117,4 @@ shootimer--;
 if attackKey
 {
 	sprite_index=sprPlayermech;
-	instance_create_depth();
 }
