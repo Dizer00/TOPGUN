@@ -8,14 +8,8 @@
 	shootKey= mouse_check_button(mb_left);
 #endregion
 
-<<<<<<< Updated upstream
 #region супер мега отрыжка бутерброда (молюсь богу ебли чтобы не пропало)
-	show_message(shiftKey)
-=======
-#region рывок
-//
-
->>>>>>> Stashed changes
+	pop=0
 #endregion
 
 #region движение
