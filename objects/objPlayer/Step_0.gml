@@ -5,7 +5,8 @@
 	leftKey = keyboard_check( ord ("A") );
 	downKey = keyboard_check( ord ("S") );
 	shiftKey = keyboard_check( vk_lshift );
-	shootKey= mouse_check_button(mb_left);
+	shootKey= mouse_check_button(mb_right);
+	attackKey= mouse_check_button(mb_left);
 #endregion
 
 #region супер мега отрыжка бутерброда (молюсь богу ебли чтобы не пропало)
@@ -75,12 +76,20 @@
 
 #region спрайты поворота игрока
 
+	if ( aimdir<=90 || aimdir>=270 )
+	{
+		image_xscale=1;
+	}
+	else
+	{
+		image_xscale=-1;
+	}
 	if (xspd==0 && yspd==0) {image_index=0;}
 
 	#endregion
 
-#region стрельба
 
+#region стрельба
 if (shootKey && shootimer<=0)
 {
 	shootimer=weapon.cooldown;
@@ -98,5 +107,6 @@ if (shootKey && shootimer<=0)
 }
 
 shootimer--;
-
 #endregion
+
+#region ближний бой

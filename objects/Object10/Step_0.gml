@@ -12,30 +12,15 @@ var dirplayer = point_direction(x,y,objPlayer.x, objPlayer.y)
 
 
 // Двигаем противника 
-if tick_av{
-tick+=1
-if tick==200{
-tick=0
-tick_av=false}
-}
-
-if (point_distance(x, y, objPlayer.x, objPlayer.y) <= enemy_distance_to_player) and tick<40
+motion_set(dirplayer, move_speed);
+if (point_distance(x, y, objPlayer.x, objPlayer.y) <= enemy_distance_to_player)
 {
     // Останавливаем движение
     hspeed = 0;
     vspeed = 0;
     
     //  задержка 
-	tick_av=true
-	if tick>=20{
-		var new_dirplayer = point_direction(x, y, objPlayer.x, objPlayer.y);
-		var movesp = 10; // Скорость рывка
-		motion_set(new_dirplayer, movesp);
-	}
-	
-}
-else{
-	motion_set(dirplayer, move_speed);
+    alarm[0] = 1;
 }
 
 if hp <= 0 instance_destroy();
