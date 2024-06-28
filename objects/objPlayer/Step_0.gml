@@ -29,6 +29,7 @@
 		{
 			xspd=0;
 		}
+	for (var i=0; i<array_length(global.Obj_notsolid_list);i+=1)
 		if place_meeting(x, y+yspd, global.Obj_notsolid_list[i])
 		{
 			yspd=0;
