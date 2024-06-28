@@ -20,10 +20,7 @@ if (point_distance(x, y, objPlayer.x, objPlayer.y) <= enemy_distance_to_player)
     // Останавливаем движение
     hspeed = 0;
     vspeed = 0;
-    
-}
-
-if (alarm[1] == -1)
+	if (alarm[1] == -1)
     {
 		
 		var shoot_cooldown = 60;
@@ -35,6 +32,10 @@ if (alarm[1] == -1)
         bullet.speed = bullet_speed;
         bullet.direction = dirplayer;
     }
+    
+}
+
+
 
 
 if hp <= 0 instance_destroy();
