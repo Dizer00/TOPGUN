@@ -4,7 +4,7 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
 var move_speed = 2; // Скорость движения противника
-var enemy_distance_to_player = 300;
+var enemy_distance_to_player = 100;
 // Получаем расстояние 
 var dist_x = objPlayer.x - x;
 var dist_y = objPlayer.y - y;
@@ -20,11 +20,13 @@ if (point_distance(x, y, objPlayer.x, objPlayer.y) <= enemy_distance_to_player)
     // Останавливаем движение
     hspeed = 0;
     vspeed = 0;
-    if (alarm[1] == -1)
+    
+}
+
+if (alarm[1] == -1)
     {
 		
-		var shoot_cooldown = 80;
-		if (hp <= 50) shoot_cooldown = 60;
+		var shoot_cooldown = 60;
         // Устанавливаем таймер на следующий выстрел
         alarm[1] = shoot_cooldown;
         
@@ -33,9 +35,6 @@ if (point_distance(x, y, objPlayer.x, objPlayer.y) <= enemy_distance_to_player)
         bullet.speed = bullet_speed;
         bullet.direction = dirplayer;
     }
-}
-
-
 
 
 if hp <= 0 instance_destroy();

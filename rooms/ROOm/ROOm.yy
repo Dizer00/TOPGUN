@@ -23,7 +23,6 @@
     {"name":"inst_3AEB309C","path":"rooms/ROOm/ROOm.yy",},
     {"name":"inst_5BE136B6","path":"rooms/ROOm/ROOm.yy",},
     {"name":"inst_329048B5","path":"rooms/ROOm/ROOm.yy",},
-    {"name":"inst_1F7E244E","path":"rooms/ROOm/ROOm.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -37,7 +36,6 @@
         {"$GMRInstance":"","%Name":"inst_1A9C103B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1A9C103B","objectId":{"name":"Xyu","path":"objects/Xyu/Xyu.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":352.0,"y":192.0,},
         {"$GMRInstance":"","%Name":"inst_2DDFFC83","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2DDFFC83","objectId":{"name":"Xyu","path":"objects/Xyu/Xyu.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":800.0,"y":320.0,},
         {"$GMRInstance":"","%Name":"inst_5BE136B6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5BE136B6","objectId":{"name":"objPoludnica","path":"objects/objPoludnica/objPoludnica.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.4999999,"scaleY":1.4999999,"x":816.0,"y":208.0,},
-        {"$GMRInstance":"","%Name":"inst_1F7E244E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1F7E244E","objectId":{"name":"objWolf","path":"objects/objWolf/objWolf.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.5,"scaleY":1.5,"x":591.0,"y":178.5,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_5272D871","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5272D871","objectId":{"name":"trava","path":"objects/trava/trava.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.5,"scaleY":1.5,"x":0.0,"y":0.0,},
