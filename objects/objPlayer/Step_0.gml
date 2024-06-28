@@ -24,14 +24,15 @@
 	yspd = lengthdir_y(spd, moveDir);
 	
 	// коллизии
-	if place_meeting(x+xspd, y, objBlock)
-	{
-		xspd=0;
-	}
-	if place_meeting(x, y+yspd, objBlock)
-	{
-		yspd=0;
-	}
+	for (var i=0; i<array_length(global.Obj_notsolid_list);i+=1)
+		if place_meeting(x+xspd, y, global.Obj_notsolid_list[i])
+		{
+			xspd=0;
+		}
+		if place_meeting(x, y+yspd, global.Obj_notsolid_list[i])
+		{
+			yspd=0;
+		}
 	
 	// движение игрока
 	x+=xspd;

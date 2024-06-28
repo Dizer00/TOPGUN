@@ -8,6 +8,7 @@ function createweapons( _sprite, _wlength, _bulletObj, _cooldown ) constructor
 }
 
 //лист ружий
+global.Obj_notsolid_list=[objBlock,Xyu]
 global.WeaponsList = {
 	
 	weapon1 : new createweapons(
