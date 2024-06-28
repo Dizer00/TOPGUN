@@ -24,8 +24,6 @@
 		cool_cur=0
 		}
 	}
-	else{
-		boost=1}
 #endregion
 
 #region движение
@@ -118,10 +116,6 @@ shootimer--;
 
 if attackKey
 {
-<<<<<<< Updated upstream
 	alarm[0]=2;
-=======
-	sprite_index=sprPlayermech;
->>>>>>> Stashed changes
 	instance_create_depth(x+weaponOffestDist, centreY, 1, obj_hit);
 }
