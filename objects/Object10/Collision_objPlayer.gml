@@ -3,6 +3,6 @@
 if cool>30{
 	cool=0
 other.hp-=1}
-if other.hp==0{
+if other.hp<=0{
 	room_restart()
 }
