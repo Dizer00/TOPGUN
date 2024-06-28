@@ -12,3 +12,4 @@ var dirplayer = point_direction(x,y,objPlayer.x, objPlayer.y)
 
 // Двигаем противника в сторону игрока
 motion_set(dirplayer, move_speed);
+if hp <= 0 instance_destroy();
