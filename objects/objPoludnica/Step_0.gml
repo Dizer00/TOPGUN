@@ -26,7 +26,7 @@ if (point_distance(x, y, objPlayer.x, objPlayer.y) <= enemy_distance_to_player)
 if (alarm[1] == -1)
     {
 		
-		var shoot_cooldown = 2;
+		var shoot_cooldown = 60;
         // Устанавливаем таймер на следующий выстрел
         alarm[1] = shoot_cooldown;
         
