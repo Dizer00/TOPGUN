@@ -88,10 +88,6 @@
 
 	#endregion
 
-<<<<<<< Updated upstream
-=======
-#region
->>>>>>> Stashed changes
 
 #region стрельба
 if (shootKey && shootimer<=0)
@@ -113,10 +109,4 @@ if (shootKey && shootimer<=0)
 shootimer--;
 #endregion
 
-<<<<<<< Updated upstream
 #region ближний бой
-=======
-#endregion
-
-
->>>>>>> Stashed changes
