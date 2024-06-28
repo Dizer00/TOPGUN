@@ -5,3 +5,4 @@ yspd=0;
 maxdist=290;
 //maxdist=250; // считает расстояние
 destroy=false;
+time=0

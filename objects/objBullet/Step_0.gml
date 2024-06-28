@@ -6,6 +6,9 @@
 	
 	x+=xspd;
 	y+=yspd;
+	time+=1
+	max_time=50+(abs(spd_boost)*10);
+	
 //столкновения
 	// уничтожается при столкновении с блоком или слишком далеко
 	if ( place_meeting(x,y, objBlocksolid) )
@@ -13,7 +16,7 @@
 		destroy=true;
 	}
 	// расстояние, которое может пройти пуля или уничтожится
-	if (point_distance(xstart,ystart,x,y)>maxdist)
+	if (time>max_time)
 	{
 		destroy=true;
 	}
