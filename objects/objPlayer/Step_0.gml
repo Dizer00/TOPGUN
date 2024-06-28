@@ -4,6 +4,7 @@
 	upKey = keyboard_check( ord ("W") );
 	leftKey = keyboard_check( ord ("A") );
 	downKey = keyboard_check( ord ("S") );
+	shiftKey = keyboard_check( vk_lshift );
 	shootKey= mouse_check_button(mb_left);
 #endregion
 
@@ -38,6 +39,8 @@
 	
 	// глубина расположения (без использования слоев)
 	depth=-bbox_bottom;
+	
+	// отрыжка мега супер неуязвимость ультра (рывок короче)
 	
 	#endregion 
 
