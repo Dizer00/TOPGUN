@@ -6,7 +6,7 @@
 	downKey = keyboard_check( ord ("S") );
 	shiftKey = keyboard_check( vk_lshift );
 	shootKey= mouse_check_button(mb_right);
-	attackKey= mouse_check_button(mb_left);
+	attackKey= mouse_check_button_released(mb_left);
 #endregion
 
 #region супер мега отрыжка бутерброда (молюсь богу ебли чтобы не пропало)
@@ -116,6 +116,14 @@ shootimer--;
 
 if attackKey
 {
+	sprite_index=sprPlayermech;
+	sprite_index=sprPlayermech;
+	sprite_index=sprPlayermech;
+	sprite_index=sprPlayermech;
+	sprite_index=sprPlayermech;
+	sprite_index=sprPlayermech;
+	sprite_index=sprPlayermech;
+	sprite_index=sprPlayermech;
 	sprite_index=sprPlayermech;
 	instance_create_depth(x+weaponOffestDist, centreY, 1, obj_hit);
 	sprite_index=sprPlayer;
