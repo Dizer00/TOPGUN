@@ -11,8 +11,8 @@
 	
 //столкновения
 	// уничтожается при столкновении с блоком или слишком далеко
-	for (var i=0; i<array_length(global.Obj_notsolid_list);i+=1)
-		if ( place_meeting(x,y, global.Obj_notsolid_list[i]) )
+	for (var i=0; i<array_length(global.Obj_solid_list);i+=1)
+		if ( place_meeting(x,y, global.Obj_solid_list[i]) )
 		{
 			destroy=true;
 		}
