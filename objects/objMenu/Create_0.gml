@@ -6,8 +6,8 @@ op_space=32;
 // меню база
 option[0,0]="PLAY";
 option[0,1]="SETTINGS";
-option[0,3]="Exit";
 option[0,2]="Bestiariy";
+option[0,3]="Exit";
 
 pos=0; // позиция выбор
 
