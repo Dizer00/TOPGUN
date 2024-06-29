@@ -68,7 +68,6 @@
     {"id":{"name":"objWolf","path":"objects/objWolf/objWolf.yy",},},
     {"id":{"name":"trava","path":"objects/trava/trava.yy",},},
     {"id":{"name":"Xyu","path":"objects/Xyu/Xyu.yy",},},
-    {"id":{"name":"game","path":"rooms/game/game.yy",},},
     {"id":{"name":"MENU","path":"rooms/MENU/MENU.yy",},},
     {"id":{"name":"Stage1","path":"rooms/Stage1/Stage1.yy",},},
     {"id":{"name":"base","path":"scripts/base/base.yy",},},
@@ -111,9 +110,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Stage1","path":"rooms/Stage1/Stage1.yy",},},
     {"roomId":{"name":"MENU","path":"rooms/MENU/MENU.yy",},},
-    {"roomId":{"name":"game","path":"rooms/game/game.yy",},},
+    {"roomId":{"name":"Stage1","path":"rooms/Stage1/Stage1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
