@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"MisucSounds","folderPath":"folders/topgun/MisucSounds.yy","name":"MisucSounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"platoformer","folderPath":"folders/platoformer.yy","name":"platoformer","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/platoformer/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/platoformer/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -74,6 +75,7 @@
     {"id":{"name":"gunscript","path":"scripts/gunscript/gunscript.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"weapons","path":"scripts/weapons/weapons.yy",},},
+    {"id":{"name":"musMenu","path":"sounds/musMenu/musMenu.yy",},},
     {"id":{"name":"Spoludnica","path":"sprites/Spoludnica/Spoludnica.yy",},},
     {"id":{"name":"spr_Arrow_explore","path":"sprites/spr_Arrow_explore/spr_Arrow_explore.yy",},},
     {"id":{"name":"spr_Arrow_posion","path":"sprites/spr_Arrow_posion/spr_Arrow_posion.yy",},},
