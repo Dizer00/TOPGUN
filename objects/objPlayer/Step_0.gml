@@ -4,7 +4,6 @@
 	upKey = keyboard_check( ord ("W") );
 	leftKey = keyboard_check( ord ("A") );
 	downKey = keyboard_check( ord ("S") );
-	qKey = keyboard_check( ord ("Q") );
 	shiftKey = keyboard_check( vk_lshift );
 	shootKey= mouse_check_button(mb_right);
 	attackKey= mouse_check_button_released(mb_left);
@@ -139,5 +138,5 @@ if attackKey
 {
 	sprite_index=sprPlayermech;
 	instance_create_depth(x+weaponOffestDist, centreY, 1, obj_hit);
-	alarm[0]=2;
+	alarm[0]=1;
 }
