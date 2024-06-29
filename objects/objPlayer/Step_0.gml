@@ -169,7 +169,7 @@ if attackKey
 if (place_meeting(x+5,y,objChest)){
 	if (keyboard_check_pressed(vk_space) && !instance_exists(objCut_Scene_Parent))
 	{
-		instance_create_layer(x,y,"objects",objCut_Scene_Chest)	;
+		instance_create_layer(x,y,"Instances",objCut_Scene_Chest)	;
 		image_index = 0;
 		image_speed = 0;
 	}
