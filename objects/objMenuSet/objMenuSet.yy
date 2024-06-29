@@ -9,8 +9,8 @@
   "name":"objMenuSet",
   "overriddenProperties":[],
   "parent":{
-    "name":"topgun",
-    "path":"folders/topgun.yy",
+    "name":"menu",
+    "path":"folders/topgun/menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,

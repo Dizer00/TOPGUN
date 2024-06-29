@@ -14,8 +14,8 @@
   ],
   "name":"MENU",
   "parent":{
-    "name":"topgun",
-    "path":"folders/topgun.yy",
+    "name":"menu",
+    "path":"folders/topgun/menu.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
