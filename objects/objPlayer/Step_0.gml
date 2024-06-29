@@ -140,9 +140,8 @@ shootimer--;
 
 #region ближний бой
 
-if attackKey
+if attackKey 
 {
 	sprite_index=sprPlayermech;
 	instance_create_depth(x+weaponOffestDist, centreY, 1, obj_hit);
-	alarm[0]=1;
 }
