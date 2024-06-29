@@ -15,4 +15,5 @@ function draweapon()
 	}
 	
 	draw_sprite_ext( weapon.sprite,0, x+xoffset, centreY+yoffset, 1,weaponYscale, aimdir, c_white, 1);
+	
 }
