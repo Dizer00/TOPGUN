@@ -11,7 +11,7 @@
 #endregion
 
 #region ультра каст
-if qKey==1 and charge>=5{
+if qKey==2 and charge>=5{
 	x=true
 	while x==true{
 		i=random(array_length(global.Enemies_list))

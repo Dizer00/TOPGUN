@@ -24,5 +24,6 @@
 		destroy=true;
 	}
 	
-	if destroy { instance_destroy(); }
+	if destroy { instance_destroy();
+		effect_create_below(ef_spark, x, y, 0.1, c_grey);}
 	
