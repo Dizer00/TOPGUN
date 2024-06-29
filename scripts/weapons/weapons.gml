@@ -12,7 +12,7 @@ global.Obj_solid_list=[objBlock,Xyu]
 //Updated upstream
 // СПИСОК ВРАГОВ ____________!"""""""""""""!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //Stashed changes
-global.Enemies_list=[objVolckolack,objPoludnica]
+global.Enemies_list=[objVolckolack,objPoludnica,ObjGrib,objDuh ,objLeshiy]
 //лист ружий
 global.WeaponsList = {
 	
@@ -27,6 +27,12 @@ global.WeaponsList = {
 		spr_gun2, 
 		sprite_get_bbox_right(spr_gun)-sprite_get_xoffset(spr_gun),
 		objBullet2,
+		15
+		),
+	weapon3 : new createweapons(
+		spr_gun2, 
+		sprite_get_bbox_right(spr_gun)-sprite_get_xoffset(spr_gun),
+		obj_Arrow_explore,
 		15
 		)
 	

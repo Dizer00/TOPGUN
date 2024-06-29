@@ -71,7 +71,10 @@ if ((shootKey==0 and power_a>0) or (power_a>=120)) and arrows[cur_id]>0{
 	var bulletInst = instance_create_depth(x+xoffset, centreY+yoffset, depth-100, weapon.bulletObj);}
 	if cur_arrow=="poison"{
 	var bulletInst = instance_create_depth(x+xoffset, centreY+yoffset, depth-100, obj_Arrow_posion);}
-	//направление полета
+	if cur_arrow == "explosive"{
+	var bulletInst = instance_create_depth(x+xoffset, centreY+yoffset, depth-100, obj_Arrow_explore); } 
+	
+	//направление поwлета
 	arrows[cur_id]-=1
 	
 	with(bulletInst)
