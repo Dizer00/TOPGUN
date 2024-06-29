@@ -3,3 +3,5 @@
 time+=1
 if time==3000{
 instance_destroy(self)}
+
+depth=-y;

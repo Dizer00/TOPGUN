@@ -1,5 +1,6 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
+depth=-y;
 image_angle=dir;
 //движение
 	xspd=lengthdir_x(sped,dir);
