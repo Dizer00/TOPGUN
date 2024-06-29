@@ -1,3 +1,4 @@
+//кнопки
 downKey=keyboard_check_pressed(ord("S"));
 upKey=keyboard_check_pressed(ord("W"));
 acceptKey=keyboard_check_pressed(vk_space);
@@ -15,9 +16,12 @@ if pos<0 {pos=op_length-1;}
 
 if acceptKey
 {
+	var _sml= menu_level;
+	
 	switch(menu_level)
-	{		
-		case 0: // базовое меню
+	{
+		// базовое меню
+		case 0:
 			switch(pos)
 			{
 			//начать игру
@@ -29,8 +33,10 @@ if acceptKey
 			//выход
 			case 3: game_end();break;
 			}
-			
-		case 1: //меню настроекОООООООООООООООООООООООООООООООООООООООООООООООООООО
+		break;
+		
+		//меню настроекОООООООООООООООООООООООООООООООООООООООООООООООООООО
+		case 1:
 			switch(pos)
 			{
 			//размер очка
@@ -45,5 +51,10 @@ if acceptKey
 
 
 	}
+	
+	if _sml !=menu_level {pos=0};
+	
+	
+	op_length=array_length(option[menu_level]);
 
 }
