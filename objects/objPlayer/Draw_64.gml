@@ -4,7 +4,7 @@ c_lightblue=#005555
 draw_set_alpha(0.5);
 draw_rectangle_color(0,0,140,90,c_lightblue,c_black,c_black,c_black,false)
 draw_set_colour(c_yellow);
-draw_set_font(Font2);
+draw_set_font(Font1);
 if cur_arrow=="basic"{
 draw_sprite_stretched(spr_Arrow,0,-10,-20,150,150)
 draw_text(80,45,arrows[0])}
