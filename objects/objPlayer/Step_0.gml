@@ -65,7 +65,6 @@ if (shootKey==0 and power_a>0) or (power_a>=120){
 	with(bulletInst)
 	{	
 		power_a+=(other.power_a div 20)
-		show_message(other.power_a)
 		dir+=other.aimdir;
 		maxdist+=other.power_a*2
 		sped+=(other.power_a div 30)
