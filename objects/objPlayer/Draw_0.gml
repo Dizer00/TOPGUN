@@ -1,9 +1,7 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-draw_healthbar(x-20,y-80,x+20,y-65,((hp/maxhp)*100),c_black, c_red, c_lime,0,true,true)
 draw_self()
-
-
-
-
-
+if power_a!=0{
+draw_set_colour(c_yellow);
+draw_set_font(Font1);
+draw_text(x,y,round(power_a/1.2))}
