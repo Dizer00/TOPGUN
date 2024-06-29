@@ -10,7 +10,6 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"MisucSounds","folderPath":"folders/topgun/MisucSounds.yy","name":"MisucSounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"platoformer","folderPath":"folders/platoformer.yy","name":"platoformer","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/platoformer/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/platoformer/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -21,6 +20,7 @@
     {"$GMFolder":"","%Name":"enemies","folderPath":"folders/topgun/enemies.yy","name":"enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"fonts","folderPath":"folders/topgun/fonts.yy","name":"fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"menu","folderPath":"folders/topgun/menu.yy","name":"menu","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"MisucSounds","folderPath":"folders/topgun/MisucSounds.yy","name":"MisucSounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"objects","folderPath":"folders/topgun/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Arrow","folderPath":"folders/topgun/objects/Arrow.yy","name":"Arrow","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sprite","folderPath":"folders/topgun/objects/Arrow/sprite.yy","name":"sprite","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -76,6 +76,7 @@
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"weapons","path":"scripts/weapons/weapons.yy",},},
     {"id":{"name":"musMenu","path":"sounds/musMenu/musMenu.yy",},},
+    {"id":{"name":"Sound2","path":"sounds/Sound2/Sound2.yy",},},
     {"id":{"name":"Spoludnica","path":"sprites/Spoludnica/Spoludnica.yy",},},
     {"id":{"name":"spr_Arrow_explore","path":"sprites/spr_Arrow_explore/spr_Arrow_explore.yy",},},
     {"id":{"name":"spr_Arrow_posion","path":"sprites/spr_Arrow_posion/spr_Arrow_posion.yy",},},
