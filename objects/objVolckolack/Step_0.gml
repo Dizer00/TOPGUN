@@ -32,13 +32,15 @@ if (point_distance(x, y, objPlayer.x, objPlayer.y) <= enemy_distance_to_player) 
     // Останавливаем движение
     hspeed = 0;
     vspeed = 0;
-    
+    sprite_index=spr_bearJMP;
     //  задержка 
 	tick_av=true
-	if tick>=20{
+	if tick>=20
+	{
 		var new_dirplayer = point_direction(x, y, objPlayer.x, objPlayer.y);
 		var movesp = 7; // Скорость рывка
 		motion_set(new_dirplayer, movesp);
+		sprite_index=spr_bearJMPed;
 	}
 	
 }
@@ -46,7 +48,7 @@ if (point_distance(x, y, objPlayer.x, objPlayer.y) <= enemy_distance_to_player) 
 else
 {
 	motion_set(dirplayer, move_speed);
-	
+	sprite_index=spr_bearrun;
 }
 
 if poison>0{
