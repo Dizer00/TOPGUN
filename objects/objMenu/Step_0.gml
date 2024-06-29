@@ -25,7 +25,7 @@ if acceptKey
 			switch(pos)
 			{
 			//начать игру
-			case 0: room_goto(Stage1); break;
+			case 0: room_goto(STGE1); break;
 			// настройки
 			case 1: menu_level=1; break;
 			// бестиарий
