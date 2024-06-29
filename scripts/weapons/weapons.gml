@@ -8,11 +8,11 @@ function createweapons( _sprite, _wlength, _bulletObj, _cooldown ) constructor
 }
 
 // СПИСОК ОБЬЕКТОВ С КОЛИЗИЕЙ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!_________!_______
-global.Obj_solid_list=[objBlock,Xyu,objBack]
+global.Obj_solid_list=[objBlock,Xyu,objBack,objDrevo1,objDrevo2,objDrevo3,objDrevo4,objPenok,objPenok2]
 //Updated upstream
 // СПИСОК ВРАГОВ ____________!"""""""""""""!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //Stashed changes
-global.Enemies_list=[objVolckolack,objPoludnica,ObjGrib,objDuh ,objLeshiy]
+global.Enemies_list=[objVolckolack,objPoludnica,ObjGrib,objDuh,objLeshiy]
 //лист ружий
 global.WeaponsList = {
 	

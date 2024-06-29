@@ -159,18 +159,19 @@ shootimer--;
 
 #region ближний бой
 
-if attackKey
-{
-	sprite_index=sprPlayermech;
-	instance_create_depth(x+weaponOffestDist, centreY, 1, obj_hit);
-	alarm[0]=1;
-}
-
-if (place_meeting(x+5,y,objChest)){
-	if (keyboard_check_pressed(vk_space) && !instance_exists(objCut_Scene_Parent))
-	{
-		instance_create_layer(x,y,"Instances",objCut_Scene_Chest)	;
-		image_index = 0;
-		image_speed = 0;
-	}
-}
+//if attackKey
+//{
+//	sprite_index=sprPlayermech;
+//	instance_create_depth(x+weaponOffestDist, centreY, 1, obj_hit);
+//	alarm[0]=1;
+//}
+//
+//if (place_meeting(x+5,y,objChest)){
+//	if (keyboard_check_pressed(vk_space) && !instance_exists(objCut_Scene_Parent))
+//	{
+//		instance_create_layer(x,y,"Instances",objCut_Scene_Chest)	;
+//		image_index = 0;
+//		image_speed = 0;
+//	}
+//}
+#endregion
