@@ -1,4 +1,4 @@
-spd=10;
+sped=10;
 dir=0;
 xspd=0;
 yspd=0;

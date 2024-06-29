@@ -1,5 +1,6 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-hp-=1
+hp-=other.power_a
+show_message(other.power_a)
 objPlayer.charge+=1
 instance_destroy(other)

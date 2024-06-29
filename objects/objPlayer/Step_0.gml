@@ -56,7 +56,6 @@ if (shootKey && shootimer<=0)
 if (shootKey==0 and power_a>0) or (power_a>=120){
 	
 	shootimer=weapon.cooldown;
-	power_a=0
 	
 	var xoffset=lengthdir_x(weaponOffestDist+weapon.length, aimdir);
 	var yoffset=lengthdir_y(weaponOffestDist+weapon.length, aimdir);
@@ -64,9 +63,14 @@ if (shootKey==0 and power_a>0) or (power_a>=120){
 	//направление полета
 	
 	with(bulletInst)
-	{
+	{	
+		power_a+=(other.power_a div 20)
+		show_message(other.power_a)
 		dir+=other.aimdir;
+		maxdist+=other.power_a*2
+		sped+=(other.power_a div 30)
 	}
+	power_a=0
 }
 
 shootimer--;
@@ -140,8 +144,9 @@ shootimer--;
 
 #region ближний бой
 
-if attackKey 
+if attackKey
 {
 	sprite_index=sprPlayermech;
 	instance_create_depth(x+weaponOffestDist, centreY, 1, obj_hit);
+	alarm[0]=1;
 }
