@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"sprite",
-    "path":"folders/topgun/Arrow/sprite.yy",
+    "path":"folders/topgun/objects/Arrow/sprite.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

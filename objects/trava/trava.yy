@@ -6,8 +6,8 @@
   "name":"trava",
   "overriddenProperties":[],
   "parent":{
-    "name":"blocks",
-    "path":"folders/topgun/objects/blocks.yy",
+    "name":"tiles",
+    "path":"folders/topgun/tiles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
