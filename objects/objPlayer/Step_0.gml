@@ -21,7 +21,7 @@ if qKey==1 and charge>=5{
 		if (instance_exists(obj)) and nea!=-4
 			x=false
 			nea.hp-=5
-			instance_create_layer(nea.x,nea.y,layer.id,Object20)}
+			instance_create_layer(nea.x,nea.y,layer.id,obj_Arrow)}
 }
 
 #endregion

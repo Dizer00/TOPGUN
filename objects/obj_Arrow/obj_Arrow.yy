@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Object20",
+  "%Name":"obj_Arrow",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object20",
+  "name":"obj_Arrow",
   "overriddenProperties":[],
   "parent":{
-    "name":"bullets",
-    "path":"folders/topgun/bullets.yy",
+    "name":"Arrow",
+    "path":"folders/topgun/Arrow.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite24",
-    "path":"sprites/Sprite24/Sprite24.yy",
+    "name":"spr_Arrow",
+    "path":"sprites/spr_Arrow/spr_Arrow.yy",
   },
   "spriteMaskId":null,
   "visible":true,
