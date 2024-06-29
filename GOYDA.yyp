@@ -55,6 +55,7 @@
     {"id":{"name":"objDuh","path":"objects/objDuh/objDuh.yy",},},
     {"id":{"name":"ObjGrib","path":"objects/ObjGrib/ObjGrib.yy",},},
     {"id":{"name":"objLeshiy","path":"objects/objLeshiy/objLeshiy.yy",},},
+    {"id":{"name":"objMenu","path":"objects/objMenu/objMenu.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"objPoludnica","path":"objects/objPoludnica/objPoludnica.yy",},},
     {"id":{"name":"objSlayer","path":"objects/objSlayer/objSlayer.yy",},},

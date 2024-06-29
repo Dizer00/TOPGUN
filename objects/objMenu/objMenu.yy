@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Object26",
+  "%Name":"objMenu",
   "eventList":[],
   "managed":true,
-  "name":"Object26",
+  "name":"objMenu",
   "overriddenProperties":[],
   "parent":{
-    "name":"bullets",
-    "path":"folders/topgun/bullets.yy",
+    "name":"topgun",
+    "path":"folders/topgun.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite30",
-    "path":"sprites/Sprite30/Sprite30.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

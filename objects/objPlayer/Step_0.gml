@@ -21,7 +21,7 @@ if qKey==2 and charge>=5{
 		if (instance_exists(obj)) and nea!=-4
 			x=false
 			nea.hp-=5
-			instance_create_depth(nea.x, nea.y, depth-100, Object26);}
+			instance_create_depth(nea.x, nea.y, depth-100, objMenu);}
 }
 if qKey==1{
 pop=1}
