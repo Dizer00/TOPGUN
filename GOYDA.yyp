@@ -101,8 +101,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"ROOm","path":"rooms/ROOm/ROOm.yy",},},
-    {"roomId":{"name":"game","path":"rooms/game/game.yy",},},
     {"roomId":{"name":"MENU","path":"rooms/MENU/MENU.yy",},},
+    {"roomId":{"name":"game","path":"rooms/game/game.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
