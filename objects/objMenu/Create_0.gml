@@ -1,11 +1,12 @@
-width=64;
-height=104;
+width=256;
+height=256;
 op_border=8;
-op_space=16;
+op_space=32;
 
 option[0]="PLAY";
 option[1]="SETTINGS";
-option[2]="Exit";
-option[3]="Bestiariy";
+option[3]="Exit";
+option[2]="Bestiariy";
+pos=0;
 
-op_length=array_length(option);
+op_length=array_length(option);// количество опций в меню
