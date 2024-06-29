@@ -61,6 +61,7 @@
     {"id":{"name":"trava","path":"objects/trava/trava.yy",},},
     {"id":{"name":"Xyu","path":"objects/Xyu/Xyu.yy",},},
     {"id":{"name":"game","path":"rooms/game/game.yy",},},
+    {"id":{"name":"MENU","path":"rooms/MENU/MENU.yy",},},
     {"id":{"name":"ROOm","path":"rooms/ROOm/ROOm.yy",},},
     {"id":{"name":"base","path":"scripts/base/base.yy",},},
     {"id":{"name":"gunscript","path":"scripts/gunscript/gunscript.yy",},},
@@ -101,6 +102,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"ROOm","path":"rooms/ROOm/ROOm.yy",},},
     {"roomId":{"name":"game","path":"rooms/game/game.yy",},},
+    {"roomId":{"name":"MENU","path":"rooms/MENU/MENU.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
