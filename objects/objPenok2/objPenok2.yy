@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"objBack",
+  "%Name":"objPenok2",
   "eventList":[],
   "managed":true,
-  "name":"objBack",
+  "name":"objPenok2",
   "overriddenProperties":[],
   "parent":{
     "name":"level",
@@ -26,11 +26,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"Sprite32Sprite32_2",
-    "path":"sprites/Sprite32Sprite32_2/Sprite32Sprite32_2.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

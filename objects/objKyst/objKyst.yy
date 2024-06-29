@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite32Sprite32_7",
+    "path":"sprites/Sprite32Sprite32_7/Sprite32Sprite32_7.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

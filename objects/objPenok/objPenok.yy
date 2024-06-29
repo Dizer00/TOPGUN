@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"objBack",
+  "%Name":"objPenok",
   "eventList":[],
   "managed":true,
-  "name":"objBack",
+  "name":"objPenok",
   "overriddenProperties":[],
   "parent":{
-    "name":"level",
-    "path":"folders/topgun/objects/level.yy",
+    "name":"GOYDA",
+    "path":"GOYDA.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -26,11 +26,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"Sprite32Sprite32_2",
-    "path":"sprites/Sprite32Sprite32_2/Sprite32Sprite32_2.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

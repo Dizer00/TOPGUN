@@ -9,10 +9,7 @@
     "name":"level",
     "path":"folders/topgun/objects/level.yy",
   },
-  "parentObjectId":{
-    "name":"objDrevo1",
-    "path":"objects/objDrevo1/objDrevo1.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprDrevo4",
-    "path":"sprites/sprDrevo4/sprDrevo4.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
