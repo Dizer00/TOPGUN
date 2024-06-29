@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"level","folderPath":"folders/topgun/objects/level.yy","name":"level","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"platoformer","folderPath":"folders/platoformer.yy","name":"platoformer","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/platoformer/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/platoformer/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -38,6 +39,7 @@
   },
   "name":"GOYDA",
   "resources":[
+    {"id":{"name":"fntMain","path":"fonts/fntMain/fntMain.yy",},},
     {"id":{"name":"fntMenuBeta","path":"fonts/fntMenuBeta/fntMenuBeta.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
@@ -49,6 +51,7 @@
     {"id":{"name":"obj_hit","path":"objects/obj_hit/obj_hit.yy",},},
     {"id":{"name":"obj_justblock","path":"objects/obj_justblock/obj_justblock.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"objBack","path":"objects/objBack/objBack.yy",},},
     {"id":{"name":"objBlock_1","path":"objects/objBlock_1/objBlock_1.yy",},},
     {"id":{"name":"objBlock","path":"objects/objBlock/objBlock.yy",},},
     {"id":{"name":"objBlocksolid","path":"objects/objBlocksolid/objBlocksolid.yy",},},
@@ -101,6 +104,7 @@
     {"id":{"name":"Sprite16_2","path":"sprites/Sprite16_2/Sprite16_2.yy",},},
     {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},},
     {"id":{"name":"Sprite21","path":"sprites/Sprite21/Sprite21.yy",},},
+    {"id":{"name":"Sprite32","path":"sprites/Sprite32/Sprite32.yy",},},
     {"id":{"name":"sprLogo","path":"sprites/sprLogo/sprLogo.yy",},},
     {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},},
     {"id":{"name":"sprPlayermech","path":"sprites/sprPlayermech/sprPlayermech.yy",},},
