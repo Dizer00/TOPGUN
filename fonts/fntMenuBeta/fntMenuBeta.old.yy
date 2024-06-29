@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"Font1",
+  "%Name":"fntMenuBeta",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":15,
@@ -117,10 +117,10 @@
   "last":0,
   "lineHeight":19,
   "maintainGms1Font":false,
-  "name":"Font1",
+  "name":"fntMenuBeta",
   "parent":{
-    "name":"hp",
-    "path":"folders/topgun/hp.yy",
+    "name":"fonts",
+    "path":"folders/topgun/fonts.yy",
   },
   "pointRounding":0,
   "ranges":[
