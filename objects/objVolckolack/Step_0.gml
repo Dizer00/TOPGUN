@@ -38,5 +38,11 @@ if (point_distance(x, y, objPlayer.x, objPlayer.y) <= enemy_distance_to_player) 
 else{
 	motion_set(dirplayer, move_speed);
 }
-
+if poison>0{
+	time+=1
+	if time>30{
+	time=0
+	poison-=1
+	hp-=1}
+}
 if hp <= 0 instance_destroy();

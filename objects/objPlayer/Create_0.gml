@@ -13,9 +13,11 @@ hp=6;
 charge=5
 max_charge=5
 power_a=0
+timer_2=6
 // стрелы
 cur_arrow="basic"
-arrows={"basic":["-","обычная стрела"],"poison":[10,"ядовитая стрела"],"explosive":[10,"взрывная стрела"]}
+cur_id=0
+arrows=[10,10,10]
 
 // будет ли игрок сасать
 invisible=false

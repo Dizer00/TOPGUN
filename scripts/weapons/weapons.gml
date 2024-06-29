@@ -19,8 +19,8 @@ global.WeaponsList = {
 	weapon1 : new createweapons(
 		spr_gun, 
 		sprite_get_bbox_right(spr_gun)-sprite_get_xoffset(spr_gun),
-		objBullet,
-		5
+		obj_Arrow_posion,
+		15
 		),
 		
 	weapon2 : new createweapons(

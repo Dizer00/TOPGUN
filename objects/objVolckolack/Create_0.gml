@@ -4,4 +4,6 @@ hp=50
 maxhp=50
 cool=5
 tick=0
+time=0
+poison=0
 tick_av=false

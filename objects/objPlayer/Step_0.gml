@@ -4,7 +4,7 @@
 	upKey = keyboard_check( ord ("W") );
 	leftKey = keyboard_check( ord ("A") );
 	downKey = keyboard_check( ord ("S") );
-	qKey = keyboard_check( ord ("Q") );
+	qKey = keyboard_check( ord("Q") );
 	shiftKey = keyboard_check( vk_lshift );
 	shootKey= mouse_check_button(mb_right);
 	attackKey= mouse_check_button_released(mb_left);
@@ -12,19 +12,25 @@
 
 #region ультра каст
 if qKey==2 and charge>=5{
-	x=true
+	x_2=true
 	while x==true{
 		i=random(array_length(global.Enemies_list))
 		show_message(global.Enemies_list)
 		obj=global.Enemies_list[i]
 		nea=instance_nearest(x, y, obj)
 		if (instance_exists(obj)) and nea!=-4
-			x=false
+			x_2=false
 			nea.hp-=5
 			instance_create_depth(nea.x, nea.y, depth-100, objMenu);}
 }
-if qKey==1{
-pop=1}
+if qKey and timer_2>12{
+	x_2=true
+	timer_2=0
+if cur_arrow=="basic" and x_2{cur_arrow="poison";cur_id=2; x_2=false}
+if cur_arrow=="poison" and x_2{cur_arrow="explosive";cur_id=1; x_2=false}
+if cur_arrow=="explosive" and x_2{cur_arrow="basic";cur_id=0; x_2=false}
+}
+else{timer_2+=1}
 
 #endregion
 
@@ -55,17 +61,22 @@ if (shootKey && shootimer<=0)
 	power_a+=1
 	boost=0.5
 }
-if (shootKey==0 and power_a>0) or (power_a>=120){
+if ((shootKey==0 and power_a>0) or (power_a>=120)) and arrows[cur_id]>0{
 	
 	shootimer=weapon.cooldown;
 	
 	var xoffset=lengthdir_x(weaponOffestDist+weapon.length, aimdir);
 	var yoffset=lengthdir_y(weaponOffestDist+weapon.length, aimdir);
-	var bulletInst = instance_create_depth(x+xoffset, centreY+yoffset, depth-100, weapon.bulletObj);
+	if cur_arrow=="basic"{
+	var bulletInst = instance_create_depth(x+xoffset, centreY+yoffset, depth-100, weapon.bulletObj);}
+	if cur_arrow=="poison"{
+	var bulletInst = instance_create_depth(x+xoffset, centreY+yoffset, depth-100, obj_Arrow_posion);}
 	//направление полета
+	arrows[cur_id]-=1
 	
 	with(bulletInst)
 	{	
+		
 		power_a+=(other.power_a div 20)
 		dir+=other.aimdir;
 		maxdist+=other.power_a*2

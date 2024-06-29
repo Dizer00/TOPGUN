@@ -37,6 +37,7 @@
   "name":"GOYDA",
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
     {"id":{"name":"obj_Arrow_explore","path":"objects/obj_Arrow_explore/obj_Arrow_explore.yy",},},
     {"id":{"name":"obj_Arrow_posion","path":"objects/obj_Arrow_posion/obj_Arrow_posion.yy",},},
     {"id":{"name":"obj_Arrow","path":"objects/obj_Arrow/obj_Arrow.yy",},},
