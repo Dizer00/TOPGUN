@@ -98,6 +98,7 @@
     {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},},
     {"id":{"name":"sprPlayermech","path":"sprites/sprPlayermech/sprPlayermech.yy",},},
     {"id":{"name":"sprSlayer","path":"sprites/sprSlayer/sprSlayer.yy",},},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

@@ -8,7 +8,7 @@
 	y+=yspd;
 	time+=1
 	pop=1
-	max_time=20+(abs(spd_boost)*5)*(power_a*2);
+	max_time=50+(abs(spd_boost)*10);
 	
 	
 //столкновения
