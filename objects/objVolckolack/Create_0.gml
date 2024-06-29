@@ -9,3 +9,4 @@ poison=0
 time_2=0
 fire=0
 tick_av=false
+knockback=5;
