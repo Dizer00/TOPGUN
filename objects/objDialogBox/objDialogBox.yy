@@ -1,13 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"objLeshiy",
-  "eventList":[],
+  "%Name":"objDialogBox",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"objLeshiy",
+  "name":"objDialogBox",
   "overriddenProperties":[],
   "parent":{
-    "name":"enemy",
-    "path":"folders/topgun/objects/enemy.yy",
+    "name":"Cutscene",
+    "path":"folders/topgun/objects/Cutscene.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bearrun",
-    "path":"sprites/spr_bearrun/spr_bearrun.yy",
+    "name":"sprDialogBox",
+    "path":"sprites/sprDialogBox/sprDialogBox.yy",
   },
   "spriteMaskId":null,
   "visible":true,
