@@ -6,8 +6,8 @@
   "name":"Xyu",
   "overriddenProperties":[],
   "parent":{
-    "name":"blocks",
-    "path":"folders/topgun/objects/blocks.yy",
+    "name":"objects",
+    "path":"folders/topgun/objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

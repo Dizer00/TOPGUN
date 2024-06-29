@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Arrow",
-    "path":"folders/topgun/Arrow.yy",
+    "path":"folders/topgun/objects/Arrow.yy",
   },
   "parentObjectId":null,
   "persistent":false,
