@@ -1,5 +1,6 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
+depth=-y;
 image_angle=dir;
 //движение
 	xspd=lengthdir_x(sped,dir);
@@ -28,6 +29,5 @@ image_angle=dir;
 	}
 	
 	if destroy { instance_destroy();
-		effect_create_below(ef_spark, x, y, 0.1, c_red);}
-		
+		effect_create_below(ef_spark, x, y, 0.1, c_red);}		
 		

@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"objBack",
-  "eventList":[],
+  "%Name":"objDrevo1",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"objBack",
+  "name":"objDrevo1",
   "overriddenProperties":[],
   "parent":{
     "name":"level",
@@ -26,10 +28,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"sprBackground",
-    "path":"sprites/sprBackground/sprBackground.yy",
+    "name":"sprDrevo1",
+    "path":"sprites/sprDrevo1/sprDrevo1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
