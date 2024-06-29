@@ -5,8 +5,8 @@
 event_inherited();
 spd_boost=abs(objPlayer.xspd+objPlayer.yspd)/2
 dir_boost=abs(objPlayer.moveDir)/2
-sped=8;
+sped=4;
 power_a=1
 dir=random_range(-4,4)
-maxdist=400+(abs(spd_boost)*30);
+maxdist=0+(abs(spd_boost)*30);
 

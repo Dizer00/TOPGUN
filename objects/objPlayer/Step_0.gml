@@ -67,7 +67,7 @@ if (shootKey==0 and power_a>0) or (power_a>=120){
 		power_a+=(other.power_a div 20)
 		dir+=other.aimdir;
 		maxdist+=other.power_a*2
-		sped+=(other.power_a div 30)
+		sped+=(other.power_a div 10)
 	}
 	power_a=0
 }
