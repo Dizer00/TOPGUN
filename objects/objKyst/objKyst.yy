@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprKust",
-    "path":"sprites/sprKust/sprKust.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
