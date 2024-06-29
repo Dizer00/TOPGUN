@@ -1,1 +1,1 @@
-font_delete(fntMenuBeta);
+font_delete(fntMain);

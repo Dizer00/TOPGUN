@@ -1,6 +1,6 @@
 //draw_sprite_ext(sprite_index, image_index, x,y, width/sprite_width, height/sprite_height,0, c_white,1);
 
-draw_set_font(fntMenuBeta);
+draw_set_font(fntMain);
 draw_set_valign(fa_top);
 draw_set_halign(fa_left);
 

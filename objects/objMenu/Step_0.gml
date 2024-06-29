@@ -28,10 +28,8 @@ if acceptKey
 			case 0: room_goto(STGE1); break;
 			// настройки
 			case 1: menu_level=1; break;
-			// бестиарий
-			case 2: break;
 			//выход
-			case 3: game_end();break;
+			case 2: game_end();break;
 			}
 		break;
 		
