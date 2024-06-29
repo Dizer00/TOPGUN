@@ -39,8 +39,6 @@
   "name":"GOYDA",
   "resources":[
     {"id":{"name":"fntMenuBeta","path":"fonts/fntMenuBeta/fntMenuBeta.yy",},},
-    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
-    {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
     {"id":{"name":"obj_Arrow_explore","path":"objects/obj_Arrow_explore/obj_Arrow_explore.yy",},},
     {"id":{"name":"obj_Arrow_posion","path":"objects/obj_Arrow_posion/obj_Arrow_posion.yy",},},
     {"id":{"name":"obj_Arrow","path":"objects/obj_Arrow/obj_Arrow.yy",},},
@@ -111,8 +109,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Stage1","path":"rooms/Stage1/Stage1.yy",},},
     {"roomId":{"name":"MENU","path":"rooms/MENU/MENU.yy",},},
+    {"roomId":{"name":"Stage1","path":"rooms/Stage1/Stage1.yy",},},
     {"roomId":{"name":"game","path":"rooms/game/game.yy",},},
   ],
   "templateType":"game",
