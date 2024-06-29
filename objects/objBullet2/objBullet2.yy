@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprBullet2",
-    "path":"sprites/sprBullet2/sprBullet2.yy",
+    "name":"spr_Arrow",
+    "path":"sprites/spr_Arrow/spr_Arrow.yy",
   },
   "spriteMaskId":null,
   "visible":true,
