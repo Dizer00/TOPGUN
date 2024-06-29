@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"objPenok",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"objPenok",
   "overriddenProperties":[],
   "parent":{
-    "name":"GOYDA",
-    "path":"GOYDA.yyp",
+    "name":"level",
+    "path":"folders/topgun/objects/level.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite32Sprite32",
+    "path":"sprites/Sprite32Sprite32/Sprite32Sprite32.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

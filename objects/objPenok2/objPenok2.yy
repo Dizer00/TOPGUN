@@ -9,7 +9,10 @@
     "name":"level",
     "path":"folders/topgun/objects/level.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objPenok",
+    "path":"objects/objPenok/objPenok.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite32Sprite32_1",
+    "path":"sprites/Sprite32Sprite32_1/Sprite32Sprite32_1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
