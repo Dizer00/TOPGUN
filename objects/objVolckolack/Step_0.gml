@@ -10,7 +10,14 @@ cool+=1
 // Вычисляем угол между противником и игроком
 var dirplayer = point_direction(x,y,objPlayer.x, objPlayer.y)
 
-
+if ( dirplayer<=90 || dirplayer>=270 )
+	{
+		image_xscale=1;
+	}
+	else
+	{
+		image_xscale=-1;
+	}
 
 // Двигаем противника 
 if tick_av{
