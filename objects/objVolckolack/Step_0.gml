@@ -45,4 +45,11 @@ if poison>0{
 	poison-=1
 	hp-=1}
 }
+if fire>0{
+	time_2+=1
+	if time_2>30{
+	time_2=0
+	fire-=1
+	hp-=1}
+}
 if hp <= 0 instance_destroy();
