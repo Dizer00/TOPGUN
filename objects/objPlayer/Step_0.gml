@@ -21,7 +21,7 @@ if qKey==1 and charge>=5{
 		if (instance_exists(obj)) and nea!=-4
 			x=false
 			nea.hp-=5
-			instance_create_depth(nea.x, nea.y, depth-100, Object26);}
+			instance_create_layer(nea.x,nea.y,layer.id,obj_Arrow)}
 }
 
 #endregion
@@ -45,31 +45,6 @@ if qKey==1 and charge>=5{
 		boost=1
 		invisible=false
 	}
-#endregion
-
-#region стрельба
-if (shootKey && shootimer<=0)
-{	
-	power_a+=1
-	boost=0.5
-}
-if (shootKey==0 and power_a>0) or (power_a>=120){
-	
-	shootimer=weapon.cooldown;
-	power_a=0
-	
-	var xoffset=lengthdir_x(weaponOffestDist+weapon.length, aimdir);
-	var yoffset=lengthdir_y(weaponOffestDist+weapon.length, aimdir);
-	var bulletInst = instance_create_depth(x+xoffset, centreY+yoffset, depth-100, weapon.bulletObj);
-	//направление полета
-	
-	with(bulletInst)
-	{
-		dir+=other.aimdir;
-	}
-}
-
-shootimer--;
 #endregion
 
 #region движение
@@ -137,6 +112,26 @@ shootimer--;
 
 	#endregion
 
+
+#region стрельба
+if (shootKey && shootimer<=0)
+{
+	shootimer=weapon.cooldown;
+	var xoffset=lengthdir_x(weaponOffestDist+weapon.length, aimdir);
+	var yoffset=lengthdir_y(weaponOffestDist+weapon.length, aimdir);
+	var bulletInst = instance_create_depth(x+xoffset, centreY+yoffset, depth-100, weapon.bulletObj);
+	
+	//направление полета
+	
+	with(bulletInst)
+	{
+		dir+=other.aimdir;
+	}
+	
+}
+
+shootimer--;
+#endregion
 
 #region ближний бой
 
