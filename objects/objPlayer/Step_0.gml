@@ -23,6 +23,8 @@ if qKey==2 and charge>=5{
 			nea.hp-=5
 			instance_create_depth(nea.x, nea.y, depth-100, Object26);}
 }
+if qKey==1{
+pop=1}
 
 #endregion
 
