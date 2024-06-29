@@ -11,6 +11,7 @@ boost=1
 //  стата типо хп
 hp=6;
 charge=5
+power_a=0
 max_charge=5
 // будет ли игрок сасать
 invisible=false
