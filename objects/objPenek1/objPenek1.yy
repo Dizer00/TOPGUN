@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"objBack",
+  "%Name":"objPenek1",
   "eventList":[],
   "managed":true,
-  "name":"objBack",
+  "name":"objPenek1",
   "overriddenProperties":[],
   "parent":{
     "name":"level",
@@ -26,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"sprBackground",
-    "path":"sprites/sprBackground/sprBackground.yy",
+    "name":"sprPenek1",
+    "path":"sprites/sprPenek1/sprPenek1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
