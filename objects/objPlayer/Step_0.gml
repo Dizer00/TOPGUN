@@ -56,7 +56,7 @@ else{timer_2+=1}
 #endregion
 
 #region стрельба
-if (shootKey && shootimer<=0)
+if (shootKey && shootimer<=0)and arrows[cur_id]>0
 {	
 	power_a+=1
 	boost=0.5
