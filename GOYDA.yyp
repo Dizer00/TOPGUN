@@ -38,6 +38,7 @@
   },
   "name":"GOYDA",
   "resources":[
+    {"id":{"name":"fntMain","path":"fonts/fntMain/fntMain.yy",},},
     {"id":{"name":"fntMenuBeta","path":"fonts/fntMenuBeta/fntMenuBeta.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},},
