@@ -72,6 +72,7 @@
     {"id":{"name":"trava","path":"objects/trava/trava.yy",},},
     {"id":{"name":"Xyu","path":"objects/Xyu/Xyu.yy",},},
     {"id":{"name":"MENU","path":"rooms/MENU/MENU.yy",},},
+    {"id":{"name":"STGE1","path":"rooms/STGE1/STGE1.yy",},},
     {"id":{"name":"base","path":"scripts/base/base.yy",},},
     {"id":{"name":"gunscript","path":"scripts/gunscript/gunscript.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
@@ -114,6 +115,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"MENU","path":"rooms/MENU/MENU.yy",},},
+    {"roomId":{"name":"STGE1","path":"rooms/STGE1/STGE1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
