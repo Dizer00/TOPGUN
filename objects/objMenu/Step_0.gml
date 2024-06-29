@@ -25,7 +25,7 @@ if acceptKey
 			// настройки
 			case 1: menu_level=1; break;
 			// бестиарий
-			case 2: room_goto(Stage1); break;
+			case 2: break;
 			//выход
 			case 3: game_end();break;
 			}
@@ -40,7 +40,7 @@ if acceptKey
 			//яркость
 			case 2:
 			//назад
-			case 3:
+			case 3: menu_level=0; break;
 			}
 
 
