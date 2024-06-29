@@ -110,8 +110,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"MENU","path":"rooms/MENU/MENU.yy",},},
     {"roomId":{"name":"Stage1","path":"rooms/Stage1/Stage1.yy",},},
+    {"roomId":{"name":"MENU","path":"rooms/MENU/MENU.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
