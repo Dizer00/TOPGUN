@@ -12,6 +12,7 @@ boost=1
 hp=6;
 charge=5
 max_charge=5
+power_a=0
 // будет ли игрок сасать
 invisible=false
 
