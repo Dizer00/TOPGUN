@@ -14,8 +14,8 @@ if(CurrentState == cutScenStates.Active){
 		break;
 		case 1:
 		dB = instance_create_layer(objLeshiy.x,objLeshiy.y - 75, "Instances", objDialogBox);
-		if (!instance_exists(objDialogBox))
-		db = myText = "Пошёл нахуй"
+		if (instance_exists(objDialogBox)){
+		dB.myText = "bye bye"}
 		if(counter == 120){
 			counter = 0;
 			++CurrentStep
