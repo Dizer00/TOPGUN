@@ -35,9 +35,13 @@ if (point_distance(x, y, objPlayer.x, objPlayer.y) <= enemy_distance_to_player) 
 	}
 	
 }
-else{
+
+else
+{
 	motion_set(dirplayer, move_speed);
+	
 }
+
 if poison>0{
 	time+=1
 	if time>30{
@@ -45,6 +49,7 @@ if poison>0{
 	poison-=1
 	hp-=1}
 }
+
 if fire>0{
 	time_2+=1
 	if time_2>30{
@@ -52,4 +57,5 @@ if fire>0{
 	fire-=1
 	hp-=1}
 }
+
 if hp <= 0 instance_destroy();
