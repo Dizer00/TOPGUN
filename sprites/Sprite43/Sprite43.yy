@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"GOYDA",
-    "path":"GOYDA.yyp",
+    "name":"sprites",
+    "path":"folders/topgun/objects/level/SENO/sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
