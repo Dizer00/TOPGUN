@@ -10,8 +10,8 @@
   "name":"obj_wolfspawn",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/topgun/objects.yy",
+    "name":"enemy",
+    "path":"folders/topgun/objects/enemy.yy",
   },
   "parentObjectId":null,
   "persistent":false,

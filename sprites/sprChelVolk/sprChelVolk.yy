@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"enemy",
-    "path":"folders/topgun/objects/enemy.yy",
+    "name":"volkosrak",
+    "path":"folders/topgun/objects/enemy/enemies_textures/volkosrak.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

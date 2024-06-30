@@ -8,9 +8,9 @@ var randX = random_range( camera_get_view_x(view_camera[0]), sqrend_x );
 var randY = random_range( camera_get_view_y(view_camera[0]), sqrend_y );
 
 // появление на карте, пока что заполняется все точки беспрерывно
-if ( (randX > objPlayer.x+100 || randX< objPlayer.x-100) && (randY > objPlayer.y+150 || randY <objPlayer.y-150) )
+if ( (randX > objPlayer.x+50 || randX< objPlayer.x-100) && (randY > objPlayer.y+150 || randY <objPlayer.y-150) )
 {
-	if( (coldown<2) && (instance_number(objWolf) <3) )
+	if( (coldown<2) && (instance_number(objWolf) < 5) )
 	{
 		alarm[0]=coldown;
 		coldown=60;
