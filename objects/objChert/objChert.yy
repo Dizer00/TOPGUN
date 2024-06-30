@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"objDuh",
-  "eventList":[],
+  "%Name":"objChert",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"objDuh",
+  "name":"objChert",
   "overriddenProperties":[],
   "parent":{
-    "name":"enemy",
-    "path":"folders/topgun/objects/enemy.yy",
+    "name":"daunichi",
+    "path":"folders/topgun/objects/enemy/daunichi.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objWolf",
+    "path":"objects/objWolf/objWolf.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprChert",
+    "path":"sprites/sprChert/sprChert.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

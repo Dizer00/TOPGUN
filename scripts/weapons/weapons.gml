@@ -12,7 +12,7 @@ global.Obj_solid_list=[objBlock,Xyu,objBack,objDrevo1,objDrevo2,objDrevo3,objDre
 //Updated upstream
 // СПИСОК ВРАГОВ ____________!"""""""""""""!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //Stashed changes
-global.Enemies_list=[objVolckolack,objPoludnica,ObjGrib,objDuh,objLeshiy]
+global.Enemies_list=[objVolckolack,objPoludnica,ObjGrib,objChert,objLeshiy]
 //лист ружий
 global.stats=[10,10,6]
 global.WeaponsList = {

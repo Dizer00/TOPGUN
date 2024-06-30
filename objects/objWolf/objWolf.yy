@@ -14,8 +14,8 @@
   "name":"objWolf",
   "overriddenProperties":[],
   "parent":{
-    "name":"enemy",
-    "path":"folders/topgun/objects/enemy.yy",
+    "name":"daunichi",
+    "path":"folders/topgun/objects/enemy/daunichi.yy",
   },
   "parentObjectId":null,
   "persistent":false,

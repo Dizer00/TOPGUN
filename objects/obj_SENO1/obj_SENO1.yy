@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"objNewLevel",
+  "%Name":"obj_SENO1",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objNewLevel",
+  "name":"obj_SENO1",
   "overriddenProperties":[],
   "parent":{
-    "name":"FOREST",
-    "path":"folders/topgun/objects/level/FOREST.yy",
+    "name":"SENO",
+    "path":"folders/topgun/objects/level/SENO.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite42",
-    "path":"sprites/Sprite42/Sprite42.yy",
+    "name":"sprSeno1",
+    "path":"sprites/sprSeno1/sprSeno1.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

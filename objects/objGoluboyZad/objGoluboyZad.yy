@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"objNewLevel",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"objGoluboyZad",
+  "eventList":[],
   "managed":true,
-  "name":"objNewLevel",
+  "name":"objGoluboyZad",
   "overriddenProperties":[],
   "parent":{
-    "name":"FOREST",
-    "path":"folders/topgun/objects/level/FOREST.yy",
+    "name":"SENO",
+    "path":"folders/topgun/objects/level/SENO.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite42",
-    "path":"sprites/Sprite42/Sprite42.yy",
+    "name":"Sprite43",
+    "path":"sprites/Sprite43/Sprite43.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
