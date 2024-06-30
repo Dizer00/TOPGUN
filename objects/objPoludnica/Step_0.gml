@@ -4,7 +4,8 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
  // Скорость движения противника
-move_speed = 1.5;
+//move_speede = 1.5;
+var move_speede = 1.5;
 var enemy_distance_to_player = 175;
 // Получаем расстояние 
 var dist_x = objPlayer.x - x;
@@ -15,7 +16,7 @@ var dirplayer = point_direction(x,y,objPlayer.x, objPlayer.y)
 
 
 // Двигаем противника 
-motion_set(dirplayer, move_speed);
+motion_set(dirplayer, move_speede);
 if (point_distance(x, y, objPlayer.x, objPlayer.y) <= enemy_distance_to_player)
 {
     // Останавливаем движение
@@ -60,13 +61,13 @@ if (poison > 0)
             hp -= 1;
             
             // Если противник отравлен, то устанавливаем скорость в 0
-            move_speed *= 0.9;
+            move_speede *= 0.9;
         }
     }
     else
     {
         // Если отравление закончилось, то восстанавливаем скорость
-        move_speed = 2;
+        move_speede = 2;
     }
 
 if fire>0{

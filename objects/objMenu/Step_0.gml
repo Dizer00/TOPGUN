@@ -30,6 +30,8 @@ if acceptKey
 			case 1: game_end();break;
 			
 			case 2: room_goto(RoomBistiary); break;
+			
+			case 3: room_goto(RSeting); break;
 			}
 		break;
 		//меню выбора уровней
