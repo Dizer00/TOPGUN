@@ -1,10 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"objChest",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"objChest",
   "overriddenProperties":[],
@@ -12,10 +9,7 @@
     "name":"Cutscene",
     "path":"folders/topgun/objects/Cutscene.yy",
   },
-  "parentObjectId":{
-    "name":"objCut_Scene_Parent",
-    "path":"objects/objCut_Scene_Parent/objCut_Scene_Parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
