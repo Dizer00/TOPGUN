@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"sprites",
-    "path":"folders/topgun/objects/level/plants/sprites.yy",
+    "name":"topgun",
+    "path":"folders/topgun.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
