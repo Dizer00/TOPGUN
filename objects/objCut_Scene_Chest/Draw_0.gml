@@ -1,11 +1,8 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-CurrentStep = 0;
-counter = 0;
-
-enum cutScenStates{
-	Active,
-	Paused
+switch (CurrentStep)
+{
+case 3:
+draw_text(objPlayer.x - 75 ,objPlayer.y - 100,"Pohelnahuy");
+break
 }
-CurrentState = cutScenStates.Active;
-showLocation = false;
