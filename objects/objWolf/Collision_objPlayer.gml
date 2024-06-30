@@ -5,6 +5,3 @@ if (cool>30 and other.invisible==false)
 	cool=0
 other.hp-=1
 }
-if other.hp<=0{
-	room_restart()
-}
