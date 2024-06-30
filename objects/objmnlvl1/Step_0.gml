@@ -11,6 +11,6 @@ if pos<0 {pos=1;}
 
 if acceptKey
 {
-	if pos == 0 {room_goto(STGE1);}
+	if pos == 0 {room_goto(STGE1Chmo);}
 	if pos == 1 {room_goto(MENU);}
 }
