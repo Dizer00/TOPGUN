@@ -171,6 +171,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"STGE2CHMO_1","path":"rooms/STGE2CHMO_1/STGE2CHMO_1.yy",},},
     {"roomId":{"name":"STGE1Boss","path":"rooms/STGE1Boss/STGE1Boss.yy",},},
     {"roomId":{"name":"MENU","path":"rooms/MENU/MENU.yy",},},
     {"roomId":{"name":"STGE1Chmo","path":"rooms/STGE1Chmo/STGE1Chmo.yy",},},
@@ -178,7 +179,6 @@
     {"roomId":{"name":"STGE1Test","path":"rooms/STGE1Test/STGE1Test.yy",},},
     {"roomId":{"name":"desriplvl1","path":"rooms/desriplvl1/desriplvl1.yy",},},
     {"roomId":{"name":"ded","path":"rooms/ded/ded.yy",},},
-    {"roomId":{"name":"STGE2CHMO_1","path":"rooms/STGE2CHMO_1/STGE2CHMO_1.yy",},},
     {"roomId":{"name":"RoomBistiary","path":"rooms/RoomBistiary/RoomBistiary.yy",},},
   ],
   "templateType":"game",
