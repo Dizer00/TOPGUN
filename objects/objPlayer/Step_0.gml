@@ -1,5 +1,6 @@
 // управление
 #region управление
+
 	rightKey = keyboard_check( ord ("D") );
 	upKey = keyboard_check( ord ("W") );
 	leftKey = keyboard_check( ord ("A") );
@@ -8,6 +9,7 @@
 	shiftKey = keyboard_check( vk_lshift );
 	shootKey= mouse_check_button(mb_right);
 	attackKey= mouse_check_button_released(mb_left);
+
 #endregion
 
 #region ультра каст
