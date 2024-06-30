@@ -1,5 +1,5 @@
-hp=30
-maxhp=30
+hp=60
+maxhp=60
 bullet_speed = 5
 
 cool=5
