@@ -3,4 +3,6 @@
 hp-=other.power_a
 objPlayer.charge+=1
 poison+=5
+
+
 instance_destroy(other)

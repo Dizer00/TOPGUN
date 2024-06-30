@@ -1,5 +1,5 @@
 if distance_to_object(objPlayer) <150{
-var move_speed = 2; // Скорость движения противника
+//move_speed = 0; // Скорость движения противника
 var enemy_distance_to_player = 300;
 // Получаем расстояние 
 var dist_x = objPlayer.x - x;
@@ -20,13 +20,24 @@ if ( dirplayer<=90 || dirplayer>=270 )
 
 // Двигаем противника 
 
-if poison>0{
-	time+=1
-	if time>30{
-	time=0
-	poison-=1
-	hp-=1}
-}
+   if (poison > 0)
+    {
+        time += 1;
+        if (time > 30)
+        {
+            time = 0;
+            poison -= 1;
+            hp -= 1;
+            
+            // Если противник отравлен, то устанавливаем скорость в 0
+            move_speed *= 0.8;
+        }
+    }
+    else
+    {
+        // Если отравление закончилось, то восстанавливаем скорость
+        move_speed = 2;
+    }
 
 if fire>0{
 	time_2+=1
@@ -35,7 +46,6 @@ if fire>0{
 	fire-=1
 	hp-=1}
 }
-
 motion_set(dirplayer, move_speed);
 if hp <= 0 {instance_destroy();
 randomize()
