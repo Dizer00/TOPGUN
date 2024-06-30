@@ -1,7 +1,7 @@
 //кнопки
-downKey=keyboard_check_pressed(ord("S"));
-upKey=keyboard_check_pressed(ord("W"));
-acceptKey=keyboard_check_pressed(vk_space);
+downKey=keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_down);
+upKey=keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up);
+acceptKey=keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_enter);
 
 // количетсво опций в каждом меню
 op_length=array_length(option[menu_level]);
@@ -25,7 +25,7 @@ if acceptKey
 			switch(pos)
 			{
 			//начать игру
-			case 0: room_goto(STGE1); break;
+			case 0: menu_level=2; break;
 			// настройки
 			case 1: menu_level=1; break;
 			//выход
@@ -46,9 +46,15 @@ if acceptKey
 			//назад
 			case 3: menu_level=0; break;
 			}
+		//меню выбора уровней
+		case 2:
+			switch(pos)
+			{
+			//волкопидарас
+			case 0: room_goto(STGE1); break;
+			}
 
-
-	}
+}
 	
 	if _sml !=menu_level {pos=0};
 	
