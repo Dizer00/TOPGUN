@@ -9,8 +9,8 @@
   "name":"objCut_Scene_Parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"GOYDA",
-    "path":"GOYDA.yyp",
+    "name":"Cut1",
+    "path":"folders/topgun/objects/Cutscene/Cut1.yy",
   },
   "parentObjectId":null,
   "persistent":false,

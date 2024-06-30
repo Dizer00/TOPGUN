@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"objChest",
+  "%Name":"objTrigger",
   "eventList":[],
   "managed":true,
-  "name":"objChest",
+  "name":"objTrigger",
   "overriddenProperties":[],
   "parent":{
-    "name":"Cut1",
-    "path":"folders/topgun/objects/Cutscene/Cut1.yy",
+    "name":"Cut2",
+    "path":"folders/topgun/objects/Cutscene/Cut2.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sprBlock",
-    "path":"sprites/sprBlock/sprBlock.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
