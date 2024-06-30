@@ -1,3 +1,4 @@
+if distance_to_object(objPlayer) <200{
 var move_speed = 2; // Скорость движения противника
 var enemy_distance_to_player = 300;
 // Получаем расстояние 
@@ -37,3 +38,4 @@ if fire>0{
 
 motion_set(dirplayer, move_speed);
 if hp <= 0 instance_destroy();
+}

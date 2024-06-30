@@ -4,9 +4,9 @@ moveSpd =3;
 xspd = 0;
 yspd = 0;
 // Рывок леопардового супер единорога горничной
-cool_max=50;
-cool_cur=50;
-len=9
+cool_max=43;
+cool_cur=43;
+len=5
 boost=1
 //  стата типо хп
 hp=6;
