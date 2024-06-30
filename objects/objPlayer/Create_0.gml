@@ -9,7 +9,7 @@ cool_cur=43;
 len=5
 boost=1
 //  стата типо хп
-hp=6;
+hp=global.stats[2];
 charge=5
 max_charge=5
 power_a=0
@@ -17,7 +17,7 @@ timer_2=6
 // стрелы
 cur_arrow="basic"
 cur_id=0
-arrows=[-1,10,10]
+arrows=[-1,global.stats[0],global.stats[1]]
 
 // будет ли игрок сасать
 invisible=false
