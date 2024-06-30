@@ -67,6 +67,7 @@
     {"id":{"name":"objBullet","path":"objects/objBullet/objBullet.yy",},},
     {"id":{"name":"objBullet2_1","path":"objects/objBullet2_1/objBullet2_1.yy",},},
     {"id":{"name":"objBullet2","path":"objects/objBullet2/objBullet2.yy",},},
+    {"id":{"name":"objChelVolk","path":"objects/objChelVolk/objChelVolk.yy",},},
     {"id":{"name":"objChest","path":"objects/objChest/objChest.yy",},},
     {"id":{"name":"objCut_Scene_Chest","path":"objects/objCut_Scene_Chest/objCut_Scene_Chest.yy",},},
     {"id":{"name":"objCut_Scene_Parent","path":"objects/objCut_Scene_Parent/objCut_Scene_Parent.yy",},},
@@ -149,8 +150,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"MENU","path":"rooms/MENU/MENU.yy",},},
     {"roomId":{"name":"STGE1Test","path":"rooms/STGE1Test/STGE1Test.yy",},},
+    {"roomId":{"name":"MENU","path":"rooms/MENU/MENU.yy",},},
     {"roomId":{"name":"desriplvl1","path":"rooms/desriplvl1/desriplvl1.yy",},},
     {"roomId":{"name":"STGE1Boss","path":"rooms/STGE1Boss/STGE1Boss.yy",},},
     {"roomId":{"name":"STGE1Chmo","path":"rooms/STGE1Chmo/STGE1Chmo.yy",},},

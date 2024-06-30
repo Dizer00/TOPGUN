@@ -3,8 +3,8 @@
 if(CurrentState == cutScenStates.Active){
 	switch (CurrentStep){
 		case 0 :
-			if(objLeshiy.x != 500){
-				++objLeshiy.x;}
+			if(objChelVolk.x != 500){
+				++objChelVolk.x;}
 				else{
 					++CurrentStep;
 						objPlayer.image_index = 0;
@@ -35,8 +35,8 @@ if(CurrentState == cutScenStates.Active){
 					break;
 				
 		case 3:
-	if(objLeshiy.x != 500){
-				++objLeshiy.x;
+	if(objChelVolk.x != 500){
+				++objChelVolk.x;
 				}
 				else
 					
@@ -45,15 +45,14 @@ if(CurrentState == cutScenStates.Active){
 			break;
 		
 			case 4:
-			if(objLeshiy.x != 550){
-				++objLeshiy.x;
+			if(objChelVolk.x != 550){
+				++objChelVolk.x;
 				}
 					else
-					
-					++CurrentStep;
+						++CurrentStep;
+				instance_destroy(objChelVolk);
 					break;
-				++CurrentStep;
-				instance_destroy(objLeshiy);
+			
 		
 		
 		
