@@ -3,29 +3,31 @@
 if(CurrentState == cutScenStates.Active){
 	switch (CurrentStep){
 		case 0 :
-			if(objLeshiy.x != 300){
-				--objLeshiy.x;}
+			if(objLeshiy.x != 500){
+				++objLeshiy.x;}
 				else{
-					objLeshiy.image_index = 0;
-					objLeshiy.image_speed = 0;
 					++CurrentStep;
+						objPlayer.image_index = 0;
+				objPlayer.image_speed = 0;
 				}
 			
 		break;
 		case 1:	
-		if(counter == 120){
+		if(counter == 510){
 			counter = 0;
 			++CurrentStep
+		
 			}
 			else
 				++counter;
 				break;
+				
 		case 2:
 		instance_destroy(objDialogBox);
-		if(objLeshiy.x != 400){
-				++objLeshiy.x;
-				objLeshiy.image_index = 1;
-				objLeshiy.image_speed = 1;
+		if(objPlayer.x != 220){
+				++objPlayer.x;
+				objPlayer.image_index = 1;
+				objPlayer.image_speed = 1;
 				}
 				else
 					
@@ -35,18 +37,23 @@ if(CurrentState == cutScenStates.Active){
 		case 3:
 	if(objLeshiy.x != 500){
 				++objLeshiy.x;
-				objLeshiy.image_index = 1;
-				objLeshiy.image_speed = 1;
 				}
 				else
 					
 					++CurrentStep;
 					break;
-	  ++CurrentStep;
-	break;
+			break;
 		
-		case 4:
-		instance_destroy(objLeshiy);
+			case 4:
+			if(objLeshiy.x != 550){
+				++objLeshiy.x;
+				}
+					else
+					
+					++CurrentStep;
+					break;
+				++CurrentStep;
+				instance_destroy(objLeshiy);
 		
 		
 		
