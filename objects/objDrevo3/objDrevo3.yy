@@ -6,8 +6,8 @@
   "name":"objDrevo3",
   "overriddenProperties":[],
   "parent":{
-    "name":"level",
-    "path":"folders/topgun/objects/level.yy",
+    "name":"plants",
+    "path":"folders/topgun/objects/level/plants.yy",
   },
   "parentObjectId":{
     "name":"objDrevo1",
