@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite21",
-    "path":"sprites/Sprite21/Sprite21.yy",
+    "name":"sprVolk",
+    "path":"sprites/sprVolk/sprVolk.yy",
   },
   "spriteMaskId":null,
   "visible":true,
