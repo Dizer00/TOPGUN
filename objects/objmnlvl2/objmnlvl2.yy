@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"objSlayer",
+  "%Name":"objmnlvl2",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objSlayer",
+  "name":"objmnlvl2",
   "overriddenProperties":[],
   "parent":{
-    "name":"enemy",
-    "path":"folders/topgun/objects/enemy.yy",
+    "name":"lvlPOS",
+    "path":"folders/topgun/menu/descrip menu/lvlPOS.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite48",
-    "path":"sprites/Sprite48/Sprite48.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
