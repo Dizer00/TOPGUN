@@ -9,4 +9,8 @@ switch (CurrentStep1)
 case 1:
 draw_text(objPlayer.x - 75 ,objPlayer.y - 100,"Ну что хуила попался");
 break
+case 2:
+draw_text(objChelVolk.x - 75 ,objChelVolk.y - 100,"АУУУУУУУ");
+break
 }
+
