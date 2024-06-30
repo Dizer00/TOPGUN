@@ -5,11 +5,7 @@
 	upKey = keyboard_check( ord ("W") );
 	leftKey = keyboard_check( ord ("A") );
 	downKey = keyboard_check( ord ("S") );
-<<<<<<< HEAD
-	qKey = mouse_check_button(mb_right);
-=======
-	qKey = keyboard_check( ord("Q") );
->>>>>>> 7bf4c149fed6ca2fbf25b6f6632ed0efe5b36e1c
+	qKey = mouse_check_button(mb_right) || keyboard_check( ord("Q") );
 	shiftKey = keyboard_check( vk_lshift );
 	shootKey= mouse_check_button(mb_right);
 	attackKey= mouse_check_button_released(mb_left);
