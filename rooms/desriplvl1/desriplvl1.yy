@@ -38,8 +38,8 @@
   ],
   "name":"desriplvl1",
   "parent":{
-    "name":"descrip menu",
-    "path":"folders/topgun/menu/descrip menu.yy",
+    "name":"lvlLES",
+    "path":"folders/topgun/menu/descrip menu/lvlLES.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

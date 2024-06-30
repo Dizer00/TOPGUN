@@ -1,3 +1,3 @@
-hp=10
-maxhp=10
+hp=50
+maxhp=50
 bullet_speed = 5

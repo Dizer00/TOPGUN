@@ -10,8 +10,8 @@
   "name":"objmnlvl1",
   "overriddenProperties":[],
   "parent":{
-    "name":"descrip menu",
-    "path":"folders/topgun/menu/descrip menu.yy",
+    "name":"lvlLES",
+    "path":"folders/topgun/menu/descrip menu/lvlLES.yy",
   },
   "parentObjectId":null,
   "persistent":false,

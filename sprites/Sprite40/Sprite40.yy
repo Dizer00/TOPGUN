@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"descrip menu",
-    "path":"folders/topgun/menu/descrip menu.yy",
+    "name":"lvlLES",
+    "path":"folders/topgun/menu/descrip menu/lvlLES.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
