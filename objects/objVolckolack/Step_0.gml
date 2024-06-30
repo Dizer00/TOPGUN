@@ -27,7 +27,6 @@ tick=0
 tick_av=false}
 }
 
-
  // жоскиий рывок НАХУЙ
 if (point_distance(x, y, objPlayer.x, objPlayer.y) <= enemy_distance_to_player) and tick<40
 {

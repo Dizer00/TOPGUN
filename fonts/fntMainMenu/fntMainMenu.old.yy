@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fntMain",
+  "%Name":"fntMainMenu",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":13,
@@ -292,7 +292,7 @@
   "last":0,
   "lineHeight":17,
   "maintainGms1Font":false,
-  "name":"fntMain",
+  "name":"fntMainMenu",
   "parent":{
     "name":"fonts",
     "path":"folders/topgun/fonts.yy",
