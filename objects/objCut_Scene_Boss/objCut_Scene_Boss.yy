@@ -1,7 +1,11 @@
 {
   "$GMObject":"",
   "%Name":"objCut_Scene_Boss",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"objCut_Scene_Boss",
   "overriddenProperties":[],
@@ -9,7 +13,10 @@
     "name":"Cut2",
     "path":"folders/topgun/objects/Cutscene/Cut2.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objCut_Scene_Boss_Parent",
+    "path":"objects/objCut_Scene_Boss_Parent/objCut_Scene_Boss_Parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
