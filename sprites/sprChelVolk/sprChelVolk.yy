@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"GOYDA",
-    "path":"GOYDA.yyp",
+    "name":"enemy",
+    "path":"folders/topgun/objects/enemy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
