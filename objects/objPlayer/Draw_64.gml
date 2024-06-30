@@ -9,7 +9,7 @@ draw_set_font(Font1);
 
 if cur_arrow=="basic"{
 draw_sprite_stretched(spr_Arrow,0,-10,-20,150,150)
-draw_text(80,45,arrows[0])}
+draw_text(80,45,"inf")}
 
 if cur_arrow=="explosive"{
 draw_sprite_stretched(spr_Arrow_explore,0,-10,-20,150,150)
@@ -21,7 +21,7 @@ draw_text(80,45,arrows[2])}
 draw_set_alpha(1);
 
 
-if hp==6{
+if hp>=6{
 	draw_sprite(Sprite16,0,10,10)
 	draw_sprite(Sprite16,0,50,10)
 	draw_sprite(Sprite16,0,90,10)
@@ -55,4 +55,5 @@ if hp==0{
 	draw_sprite(Sprite16_2,0,10,10)
 	draw_sprite(Sprite16_2,0,50,10)
 	draw_sprite(Sprite16_2,0,90,10)
+	room_restart()
 }

@@ -6,8 +6,8 @@
   "name":"objChest",
   "overriddenProperties":[],
   "parent":{
-    "name":"Cutscene1",
-    "path":"folders/topgun/objects/Cutscene/Cutscene1.yy",
+    "name":"GOYDA",
+    "path":"GOYDA.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

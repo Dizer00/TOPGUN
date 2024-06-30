@@ -17,7 +17,7 @@ timer_2=6
 // стрелы
 cur_arrow="basic"
 cur_id=0
-arrows=[10,10,10]
+arrows=[-1,10,10]
 
 // будет ли игрок сасать
 invisible=false

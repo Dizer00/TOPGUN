@@ -58,12 +58,12 @@ else{timer_2+=1}
 #endregion
 
 #region стрельба
-if (shootKey && shootimer<=0)and arrows[cur_id]>0
+if (shootKey && shootimer<=0)and (arrows[cur_id]>0or arrows[cur_id]==-1)
 {	
 	power_a+=1
 	boost=0.5
 }
-if ((shootKey==0 and power_a>0) or (power_a>=120)) and arrows[cur_id]>0{
+if ((shootKey==0 and power_a>0) or (power_a>=60)) and (arrows[cur_id]>0or arrows[cur_id]==-1){
 	
 	shootimer=weapon.cooldown;
 	
@@ -77,15 +77,16 @@ if ((shootKey==0 and power_a>0) or (power_a>=120)) and arrows[cur_id]>0{
 	var bulletInst = instance_create_depth(x+xoffset, centreY+yoffset, depth-100, obj_Arrow_explore); } 
 	
 	//направление поwлета
-	arrows[cur_id]-=1
+	if arrows[cur_id]!=-1{
+	arrows[cur_id]-=1}
 	
 	with(bulletInst)
 	{	
 		
-		power_a+=(other.power_a div 20)
+		power_a+=(other.power_a div 10)
 		dir+=other.aimdir;
-		maxdist+=other.power_a*2
-		sped+=(other.power_a div 10)
+		maxdist+=other.power_a*4
+		sped+=(other.power_a div 5)
 	}
 	power_a=0
 }

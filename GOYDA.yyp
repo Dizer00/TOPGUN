@@ -25,8 +25,6 @@
     {"$GMFolder":"","%Name":"sprite","folderPath":"folders/topgun/objects/Arrow/sprite.yy","name":"sprite","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"blocks","folderPath":"folders/topgun/objects/blocks.yy","name":"blocks","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Cutscene","folderPath":"folders/topgun/objects/Cutscene.yy","name":"Cutscene","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Cutscene1","folderPath":"folders/topgun/objects/Cutscene/Cutscene1.yy","name":"Cutscene1","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Cutscene2","folderPath":"folders/topgun/objects/Cutscene/Cutscene2.yy","name":"Cutscene2","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"enemy","folderPath":"folders/topgun/objects/enemy.yy","name":"enemy","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"daunichi","folderPath":"folders/topgun/objects/enemy/daunichi.yy","name":"daunichi","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/topgun/objects/enemy/daunichi/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
