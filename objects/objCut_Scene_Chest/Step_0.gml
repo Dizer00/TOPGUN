@@ -39,13 +39,21 @@ if(CurrentState == cutScenStates.Active){
 							  }
 		else
 		++CurrentStep;
+		
 		break;
 			
 		
 		case 4:
+		if(counter == 200){
+			counter = 0;
+			++CurrentStep
+						  }
+			else
+				++counter;
+		break;
+			case 5:
 		instance_destroy(objChelVolk);
 		break;
-			
 		
 		
 		

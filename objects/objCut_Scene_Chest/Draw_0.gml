@@ -1,5 +1,7 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
+//font_set_cache_size(fntMainMenu, currentFontSize * 0.5)
+
 draw_set_font(fntMainMenu);
 
 switch (CurrentStep)
@@ -7,10 +9,10 @@ switch (CurrentStep)
 {
 
 case 1:
-draw_text(objPlayer.x - 75 ,objPlayer.y - 100,"АХАЗАХЗАХАЗАХАЗХАЗХАЗА ЛОХ");
+draw_text(objChelVolk.x - 70 ,objChelVolk.y - 50 ,"Я быстрее\nБогатырь");
 break
 
-case 3:
-draw_text(objPlayer.x - 75 ,objPlayer.y - 100,"СТОЙ окоянный! Куда делся то? Ну ничего, все равно найду и башка твоя с плеч улетит!");
+case 4:
+draw_text(objPlayer.x - 120 ,objPlayer.y - 150,"СТОЙ окоянный!\n Куда делся то? Ну ничего\n, все равно найду и башка твоя\n с плеч улетит!");
 break
 }
