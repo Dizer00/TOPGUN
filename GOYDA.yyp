@@ -142,8 +142,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"MENU","path":"rooms/MENU/MENU.yy",},},
     {"roomId":{"name":"STGE1","path":"rooms/STGE1/STGE1.yy",},},
+    {"roomId":{"name":"MENU","path":"rooms/MENU/MENU.yy",},},
     {"roomId":{"name":"desriplvl1","path":"rooms/desriplvl1/desriplvl1.yy",},},
   ],
   "templateType":"game",

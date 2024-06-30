@@ -36,4 +36,20 @@ if fire>0{
 }
 
 motion_set(dirplayer, move_speed);
-if hp <= 0 instance_destroy();
+if hp <= 0 {
+	randomize();
+	var r=irandom(4)
+	if r==0{
+	objPlayer.hp+=irandom_range(1,3)
+	}
+	if r==1{
+		objPlayer.arrows[0]+=irandom_range(3,7)
+	}
+	if r==2{
+		objPlayer.arrows[1]+=irandom_range(3,7)
+	}
+	if r==3{
+		objPlayer.arrows[2]+=irandom_range(3,7)
+	}
+	instance_destroy();
+	}
