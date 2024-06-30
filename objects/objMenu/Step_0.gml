@@ -28,6 +28,8 @@ if acceptKey
 			case 0: menu_level=1; break;
 			//выход
 			case 1: game_end();break;
+			
+			case 2: room_goto(RoomBistiary); break;
 			}
 		break;
 		//меню выбора уровней
@@ -36,8 +38,10 @@ if acceptKey
 			{
 			//волкопидарас
 			case 0: room_goto(desriplvl1); break;
+			
 			}
 		break;
+		
 
 }
 	
