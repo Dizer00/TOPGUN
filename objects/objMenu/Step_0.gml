@@ -25,34 +25,19 @@ if acceptKey
 			switch(pos)
 			{
 			//начать игру
-			case 0: menu_level=2; break;
-			// настройки
-			case 1: menu_level=1; break;
+			case 0: menu_level=1; break;
 			//выход
-			case 2: game_end();break;
+			case 1: game_end();break;
 			}
 		break;
-		
-		//меню настроек
-		case 1:
-			switch(pos)
-			{
-			//размер очка
-			case 0:
-			//громкость
-			case 1: 
-			//яркость
-			case 2:
-			//назад
-			case 3: menu_level=0; break;
-			}
 		//меню выбора уровней
-		case 2:
+		case 1:
 			switch(pos)
 			{
 			//волкопидарас
 			case 0: room_goto(desriplvl1); break;
 			}
+		break;
 
 }
 	
