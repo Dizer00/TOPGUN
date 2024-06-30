@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"plants",
-    "path":"folders/topgun/objects/level/plants.yy",
+    "path":"folders/topgun/objects/level/FOREST/plants.yy",
   },
   "parentObjectId":{
     "name":"objPenok",

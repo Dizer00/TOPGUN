@@ -90,8 +90,8 @@
   ],
   "name":"STGE1Test",
   "parent":{
-    "name":"level",
-    "path":"folders/topgun/objects/level.yy",
+    "name":"FOREST",
+    "path":"folders/topgun/objects/level/FOREST.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

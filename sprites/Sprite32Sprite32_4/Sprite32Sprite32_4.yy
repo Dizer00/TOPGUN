@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"sprites",
-    "path":"folders/topgun/objects/level/plants/sprites.yy",
+    "path":"folders/topgun/objects/level/FOREST/plants/sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
