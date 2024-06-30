@@ -19,6 +19,7 @@
     {"$GMFolder":"","%Name":"bullets","folderPath":"folders/topgun/bullets.yy","name":"bullets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"fonts","folderPath":"folders/topgun/fonts.yy","name":"fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"menu","folderPath":"folders/topgun/menu.yy","name":"menu","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"descrip menu","folderPath":"folders/topgun/menu/descrip menu.yy","name":"descrip menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"objects","folderPath":"folders/topgun/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Arrow","folderPath":"folders/topgun/objects/Arrow.yy","name":"Arrow","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sprite","folderPath":"folders/topgun/objects/Arrow/sprite.yy","name":"sprite","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -89,6 +90,7 @@
     {"id":{"name":"objWolf","path":"objects/objWolf/objWolf.yy",},},
     {"id":{"name":"trava","path":"objects/trava/trava.yy",},},
     {"id":{"name":"Xyu","path":"objects/Xyu/Xyu.yy",},},
+    {"id":{"name":"desriplvl1","path":"rooms/desriplvl1/desriplvl1.yy",},},
     {"id":{"name":"MENU","path":"rooms/MENU/MENU.yy",},},
     {"id":{"name":"STGE1","path":"rooms/STGE1/STGE1.yy",},},
     {"id":{"name":"base","path":"scripts/base/base.yy",},},
@@ -142,6 +144,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"MENU","path":"rooms/MENU/MENU.yy",},},
     {"roomId":{"name":"STGE1","path":"rooms/STGE1/STGE1.yy",},},
+    {"roomId":{"name":"desriplvl1","path":"rooms/desriplvl1/desriplvl1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

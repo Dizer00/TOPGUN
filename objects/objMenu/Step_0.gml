@@ -51,7 +51,7 @@ if acceptKey
 			switch(pos)
 			{
 			//волкопидарас
-			case 0: room_goto(STGE1); break;
+			case 0: room_goto(desriplvl1); break;
 			}
 
 }
