@@ -2,9 +2,9 @@
 CurrentStep = 0;
 counter = 0;
 
-enum cutScenStates{
+enum cutScen2States{
 	Active,
 	Paused
 }
-CurrentState = cutScenStates.Active;
+CurrentState = cutScen2States.Active;
 showLocation = false;

@@ -2,7 +2,7 @@
 // Вы можете записать свой код в этом редакторе
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-if(CurrentState == cutScenStates.Active){
+if(CurrentState == cutScen2States.Active){
 	switch (CurrentStep){
 		case 0 :
 			if(objChelVolk.x != 500){
@@ -61,6 +61,6 @@ if(CurrentState == cutScenStates.Active){
 		
 	}
 }
-else if (CurrentState == cutScenStates.Paused){
+else if (CurrentState == cutScen2States.Paused){
 	
 }
