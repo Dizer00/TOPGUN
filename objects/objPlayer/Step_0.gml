@@ -7,8 +7,8 @@
 	downKey = keyboard_check( ord ("S") );
 	qKey = mouse_check_button(mb_right) || keyboard_check( ord("Q") );
 	shiftKey = keyboard_check( vk_lshift );
-	shootKey= mouse_check_button(mb_right);
-	attackKey= mouse_check_button_released(mb_left);
+	shootKey= mouse_check_button(mb_left);
+	attackKey=0;
 
 #endregion
 
