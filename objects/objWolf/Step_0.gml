@@ -30,7 +30,7 @@ if ( dirplayer<=90 || dirplayer>=270 )
             hp -= 1;
             
             // Если противник отравлен, то устанавливаем скорость в 0
-            move_speed *= 0.8;
+            move_speed *= 0.7;
         }
     }
     else

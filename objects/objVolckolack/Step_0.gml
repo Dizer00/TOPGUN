@@ -1,6 +1,6 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-var move_speed = 2; // Скорость движения противника
+ // Скорость движения противника
 var enemy_distance_to_player = 300;
 // Получаем расстояние 
 var dist_x = objPlayer.x - x;
@@ -52,13 +52,24 @@ else
 	sprite_index=spr_bearrun;
 }
 
-if poison>0{
-	time+=1
-	if time>30{
-	time=0
-	poison-=1
-	hp-=1}
-}
+if (poison > 0)
+    {
+        time += 1;
+        if (time > 30)
+        {
+            time = 0;
+            poison -= 1;
+            hp -= 1;
+            
+            // Если противник отравлен, то устанавливаем скорость в 0
+            move_speed *= 0.9;
+        }
+    }
+    else
+    {
+        // Если отравление закончилось, то восстанавливаем скорость
+        move_speed = 2;
+    }
 
 if fire>0{
 	time_2+=1
