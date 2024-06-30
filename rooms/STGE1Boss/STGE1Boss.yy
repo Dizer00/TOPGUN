@@ -21,6 +21,7 @@
     {"name":"inst_3521AAD0","path":"rooms/STGE1Boss/STGE1Boss.yy",},
     {"name":"inst_845F7FF","path":"rooms/STGE1Boss/STGE1Boss.yy",},
     {"name":"inst_5DA66246","path":"rooms/STGE1Boss/STGE1Boss.yy",},
+    {"name":"inst_2C9D8CED","path":"rooms/STGE1Boss/STGE1Boss.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -40,6 +41,7 @@
         {"$GMRInstance":"","%Name":"inst_3521AAD0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3521AAD0","objectId":{"name":"objKyst","path":"objects/objKyst/objKyst.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.5,"scaleY":1.5,"x":0.0,"y":448.0,},
         {"$GMRInstance":"","%Name":"inst_845F7FF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_845F7FF","objectId":{"name":"objKyst","path":"objects/objKyst/objKyst.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.5,"scaleY":1.5,"x":-32.0,"y":480.0,},
         {"$GMRInstance":"","%Name":"inst_5DA66246","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5DA66246","objectId":{"name":"objKyst","path":"objects/objKyst/objKyst.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.5,"scaleY":1.5,"x":0.0,"y":512.0,},
+        {"$GMRInstance":"","%Name":"inst_2C9D8CED","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2C9D8CED","objectId":{"name":"objVolckolack","path":"objects/objVolckolack/objVolckolack.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":288.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_73C8F97D","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_73C8F97D","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"sprtrava1","path":"sprites/sprtrava1/sprtrava1.yy",},"x":288.0,"y":96.0,},
