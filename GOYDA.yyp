@@ -143,6 +143,7 @@
     {"id":{"name":"sprLogo","path":"sprites/sprLogo/sprLogo.yy",},},
     {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},},
     {"id":{"name":"sprPlayermech","path":"sprites/sprPlayermech/sprPlayermech.yy",},},
+    {"id":{"name":"sprSeno1","path":"sprites/sprSeno1/sprSeno1.yy",},},
     {"id":{"name":"sprSlayer","path":"sprites/sprSlayer/sprSlayer.yy",},},
     {"id":{"name":"sprtrava","path":"sprites/sprtrava/sprtrava.yy",},},
     {"id":{"name":"sprtrava1","path":"sprites/sprtrava1/sprtrava1.yy",},},
