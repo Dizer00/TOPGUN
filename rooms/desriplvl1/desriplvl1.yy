@@ -38,8 +38,8 @@
   ],
   "name":"desriplvl1",
   "parent":{
-    "name":"lvlLES",
-    "path":"folders/topgun/menu/descrip menu/lvlLES.yy",
+    "name":"GOYDA",
+    "path":"GOYDA.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{
