@@ -1,5 +1,4 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-if invisible==false{
-hp-=1}
-instance_destroy(other)
+draw_set_font(fntMainMenu)
+draw_text(x,y,"You are dead\nPress R to exit to menu")

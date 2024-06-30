@@ -55,5 +55,7 @@ if hp==0{
 	draw_sprite(Sprite16_2,0,10,10)
 	draw_sprite(Sprite16_2,0,50,10)
 	draw_sprite(Sprite16_2,0,90,10)
-	room_restart()
+	if hp<=0{
+	room_goto(ded)
+}
 }

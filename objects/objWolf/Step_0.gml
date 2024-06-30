@@ -42,7 +42,7 @@ randomize()
 r=irandom(4)
 if r==0{
 objPlayer.hp+=irandom_range(1,3)}
-if r==2{
+if r==2 or r==1{
 objPlayer.arrows[1]+=irandom_range(3,7)}
 if r==3{
 objPlayer.arrows[2]+=irandom_range(3,7)}
