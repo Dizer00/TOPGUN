@@ -18,3 +18,4 @@ option[1,2]="Уровень 'Болото' НЕ ГОТОВ";
 
 op_length=0;// количество опций в меню
 menu_level=0;
+audio_play_sound(musMenu,128,1,1,1,1,1);
