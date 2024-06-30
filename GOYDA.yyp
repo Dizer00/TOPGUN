@@ -117,6 +117,7 @@
     {"id":{"name":"sprBullet","path":"sprites/sprBullet/sprBullet.yy",},},
     {"id":{"name":"sprBullet2_1","path":"sprites/sprBullet2_1/sprBullet2_1.yy",},},
     {"id":{"name":"sprBullet2","path":"sprites/sprBullet2/sprBullet2.yy",},},
+    {"id":{"name":"sprChelVolk","path":"sprites/sprChelVolk/sprChelVolk.yy",},},
     {"id":{"name":"sprDialogBox","path":"sprites/sprDialogBox/sprDialogBox.yy",},},
     {"id":{"name":"sprHit","path":"sprites/sprHit/sprHit.yy",},},
     {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},},
