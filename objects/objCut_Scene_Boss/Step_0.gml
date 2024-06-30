@@ -36,7 +36,7 @@ if(CurrentState1 == cutScenStates2.Active){
 	
 		//instance_deactivate_object(objChelVolk);
 		effect_create_above(ef_explosion, x, y, 1, c_white);
-		if timer<5{
+		if timer<30{
 		timer+=1}
 		else{
 		effect_clear()}
