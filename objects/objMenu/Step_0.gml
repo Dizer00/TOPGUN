@@ -39,6 +39,8 @@ if acceptKey
 			//волкопидарас
 			case 0: room_goto(desriplvl1); break;
 			
+			//ведьмаебучая
+			case 1: room_goto(STGE2CHMO); break;
 			}
 		break;
 		
