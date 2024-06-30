@@ -12,8 +12,8 @@
   "duration":138.05713,
   "name":"musEpic",
   "parent":{
-    "name":"GOYDA",
-    "path":"GOYDA.yyp",
+    "name":"sound",
+    "path":"folders/topgun/sound.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
