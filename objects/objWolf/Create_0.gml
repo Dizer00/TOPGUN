@@ -1,5 +1,5 @@
-hp=10
-maxhp=10
+hp=29
+maxhp=29
 cool=5
 tick=0
 time=0

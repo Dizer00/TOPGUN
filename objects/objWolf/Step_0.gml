@@ -1,4 +1,4 @@
-if distance_to_object(objPlayer) <200{
+if distance_to_object(objPlayer) <150{
 var move_speed = 2; // Скорость движения противника
 var enemy_distance_to_player = 300;
 // Получаем расстояние 
