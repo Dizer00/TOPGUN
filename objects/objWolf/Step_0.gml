@@ -18,11 +18,22 @@ if ( dirplayer<=90 || dirplayer>=270 )
 	}
 
 // Двигаем противника 
-if tick_av{
-tick+=1
-if tick==200{
-tick=0
-tick_av=false}
+
+if poison>0{
+	time+=1
+	if time>30{
+	time=0
+	poison-=1
+	hp-=1}
+}
+
+if fire>0{
+	time_2+=1
+	if time_2>30{
+	time_2=0
+	fire-=1
+	hp-=1}
 }
 
 motion_set(dirplayer, move_speed);
+if hp <= 0 instance_destroy();
