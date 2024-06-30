@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"menu",
-    "path":"folders/topgun/menu.yy",
+    "name":"BESTIARIY",
+    "path":"folders/topgun/menu/descrip menu/BESTIARIY.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

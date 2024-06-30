@@ -10,8 +10,8 @@
   "name":"Bestiry_Back",
   "overriddenProperties":[],
   "parent":{
-    "name":"descrip menu",
-    "path":"folders/topgun/menu/descrip menu.yy",
+    "name":"BESTIARIY",
+    "path":"folders/topgun/menu/descrip menu/BESTIARIY.yy",
   },
   "parentObjectId":null,
   "persistent":false,

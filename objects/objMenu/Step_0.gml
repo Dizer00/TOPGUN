@@ -40,7 +40,7 @@ if acceptKey
 			case 0: room_goto(desriplvl1); break;
 			
 			//ведьмаебучая
-			case 1: room_goto(STGE2CHMO); break;
+			case 1: room_goto(STGE2CHMO); audio_stop_sound(musMenu); audio_play_sound(musPole,90,true,1,1,1,1); break;
 			}
 		break;
 		

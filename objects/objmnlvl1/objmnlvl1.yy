@@ -10,8 +10,8 @@
   "name":"objmnlvl1",
   "overriddenProperties":[],
   "parent":{
-    "name":"GOYDA",
-    "path":"GOYDA.yyp",
+    "name":"lvl1",
+    "path":"folders/topgun/menu/descrip menu/lvl1.yy",
   },
   "parentObjectId":null,
   "persistent":false,

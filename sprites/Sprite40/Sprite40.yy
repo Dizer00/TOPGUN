@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"GOYDA",
-    "path":"GOYDA.yyp",
+    "name":"lvl1",
+    "path":"folders/topgun/menu/descrip menu/lvl1.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
