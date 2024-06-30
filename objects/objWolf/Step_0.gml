@@ -1,3 +1,4 @@
+if distance_to_object(objPlayer) <200{
 var move_speed = 2; // Скорость движения противника
 var enemy_distance_to_player = 300;
 // Получаем расстояние 
@@ -47,4 +48,5 @@ if r==2{
 objPlayer.arrows[1]+=irandom_range(3,7)}
 if r==3{
 objPlayer.arrows[2]+=irandom_range(3,7)}
+}
 }
