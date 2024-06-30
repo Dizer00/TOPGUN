@@ -138,6 +138,6 @@
     "name":"Default",
     "path":"texturegroups/Default",
   },
-  "TTFName":"${project_dir}\\fonts\\Font2\\slavshripht.ttf",
+  "TTFName":null,
   "usesSDF":true,
 }
