@@ -102,6 +102,7 @@
     {"id":{"name":"gunscript","path":"scripts/gunscript/gunscript.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"weapons","path":"scripts/weapons/weapons.yy",},},
+    {"id":{"name":"musMenu","path":"sounds/musMenu/musMenu.yy",},},
     {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},},
     {"id":{"name":"spr_Arrow_explore","path":"sprites/spr_Arrow_explore/spr_Arrow_explore.yy",},},
     {"id":{"name":"spr_Arrow_posion","path":"sprites/spr_Arrow_posion/spr_Arrow_posion.yy",},},
@@ -150,8 +151,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"STGE1Test","path":"rooms/STGE1Test/STGE1Test.yy",},},
     {"roomId":{"name":"MENU","path":"rooms/MENU/MENU.yy",},},
+    {"roomId":{"name":"STGE1Test","path":"rooms/STGE1Test/STGE1Test.yy",},},
     {"roomId":{"name":"desriplvl1","path":"rooms/desriplvl1/desriplvl1.yy",},},
     {"roomId":{"name":"STGE1Boss","path":"rooms/STGE1Boss/STGE1Boss.yy",},},
     {"roomId":{"name":"STGE1Chmo","path":"rooms/STGE1Chmo/STGE1Chmo.yy",},},
