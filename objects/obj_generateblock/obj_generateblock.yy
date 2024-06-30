@@ -10,8 +10,8 @@
   "name":"obj_generateblock",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/platoformer/Objects.yy",
+    "name":"objects",
+    "path":"folders/topgun/objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

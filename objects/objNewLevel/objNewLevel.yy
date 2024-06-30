@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"objNewLevel",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"objNewLevel",
   "overriddenProperties":[],
@@ -32,5 +34,5 @@
     "path":"sprites/Sprite42/Sprite42.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

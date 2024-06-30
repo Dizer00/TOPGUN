@@ -1,2 +1,2 @@
 // пиздец какая длинная функция на создание блока. Длинная, ибо она не видит переменные из СТЕПА
-instance_create_layer(random_range( camera_get_view_x(view_camera[0]),camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) ), random_range( camera_get_view_y(view_camera[0]), camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) ), "blocks", obj_block);
+instance_create_layer(random_range( camera_get_view_x(view_camera[0]),camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) ), random_range( camera_get_view_y(view_camera[0]), camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) ), "Instances", objWolf);
