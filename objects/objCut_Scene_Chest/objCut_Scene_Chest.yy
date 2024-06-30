@@ -14,8 +14,8 @@
     "path":"folders/topgun/objects/Cutscene.yy",
   },
   "parentObjectId":{
-    "name":"objCut_Scene_Parent",
-    "path":"objects/objCut_Scene_Parent/objCut_Scene_Parent.yy",
+    "name":"objChest",
+    "path":"objects/objChest/objChest.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
