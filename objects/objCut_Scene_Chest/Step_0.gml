@@ -3,7 +3,7 @@
 if(CurrentState == cutScenStates.Active){
 	switch (CurrentStep){
 		case 0 :
-			if(objChelVolk.x != 500){
+			if(objChelVolk.x != 200){
 				++objChelVolk.x;}
 				else{
 					++CurrentStep;						
@@ -11,7 +11,7 @@ if(CurrentState == cutScenStates.Active){
 		break;
 	
 		case 1:	
-		if(counter == 510){
+		if(counter == 200){
 			counter = 0;
 			++CurrentStep
 						  }
@@ -20,19 +20,23 @@ if(CurrentState == cutScenStates.Active){
 		break;
 				
 		case 2:
-		if(objPlayer.x != 220){
-			++objPlayer.x;
-			objPlayer.image_index = 1;
-			objPlayer.image_speed = 1;
-							  }
-		else
+		effect_create_above(ef_explosion, x, y, 1, c_white);
+		if timer<30{
+		timer+=1}
+		else{
+		effect_clear()}
+
+		objChelVolk.visible = false;
 		++CurrentStep;
+		
 		break;
 				
 		case 3:
-		if(objChelVolk.x != 500){
-			++objChelVolk.x;
-								}
+		if(objPlayer.x != 200){
+			++objPlayer.x;
+			//objPlayer.image_index = 1;
+			//objPlayer.image_speed = 1;
+							  }
 		else
 		++CurrentStep;
 		break;
