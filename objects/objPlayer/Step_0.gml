@@ -1,6 +1,8 @@
 // управление
 #region управление
 
+	
+	
 	rightKey = keyboard_check( ord ("D") );
 	upKey = keyboard_check( ord ("W") );
 	leftKey = keyboard_check( ord ("A") );

@@ -1,4 +1,5 @@
 // движение
+event_inherited();
 moveDir = 0;
 moveSpd =2.4;
 xspd = 0;
@@ -26,6 +27,7 @@ invisible=false
 centreYoffset=-30;
 weaponOffestDist=30;
 aimdir=0;
+
 
 // спрайты передвижения
 

@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"musMenu.mp3",
   "type":1,
-  "volume":1.0,
+  "volume":0.5,
 }
