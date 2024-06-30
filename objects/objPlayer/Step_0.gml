@@ -85,8 +85,8 @@ if ((shootKey==0 and power_a>0) or (power_a>=60)) and (arrows[cur_id]>0or arrows
 		
 		power_a+=(other.power_a div 10)
 		dir+=other.aimdir;
-		maxdist+=other.power_a*4
-		sped+=(other.power_a div 5)
+		maxdist+=other.power_a*2
+		sped+=(other.power_a div 7)
 	}
 	power_a=0
 }
