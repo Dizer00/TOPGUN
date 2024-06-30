@@ -4,8 +4,8 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
  // Скорость движения противника
-move_speed = 2;
-var enemy_distance_to_player = 100;
+move_speed = 1.5;
+var enemy_distance_to_player = 175;
 // Получаем расстояние 
 var dist_x = objPlayer.x - x;
 var dist_y = objPlayer.y - y;
@@ -28,6 +28,8 @@ if (alarm[1] == -1)
     {
 		
 		var shoot_cooldown = 60;
+		if hp <=40 shoot_cooldown = 50;
+		
         // Устанавливаем таймер на следующий выстрел
         alarm[1] = shoot_cooldown;
         
@@ -35,6 +37,17 @@ if (alarm[1] == -1)
         var bullet = instance_create_layer(x, y, "Instances", objSlayer);
         bullet.speed = bullet_speed;
         bullet.direction = dirplayer;
+		var original_direction = dirplayer;
+
+        // Выпускаем 10 объектов objSlayer во все стороны
+		if hp <= 10{
+        for (var i = 0; i < 10; i++)
+        {
+            // Создаем новый объект objSlayer
+            var extra_bullet = instance_create_layer(x, y, "Instances", objSlayer);
+            extra_bullet.speed = bullet_speed;
+            extra_bullet.direction = original_direction + (i * 36); // Угол каждого следующего выстрела смещен на 36 градусов
+        }}
     }
 
 if (poison > 0)
@@ -66,4 +79,3 @@ if fire>0{
 
 if hp <= 0 instance_destroy();
 
-if hp <= 0 instance_destroy();
