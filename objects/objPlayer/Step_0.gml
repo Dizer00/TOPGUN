@@ -61,7 +61,7 @@ if (shootKey && shootimer<=0)and arrows[cur_id]>0
 	power_a+=1
 	boost=0.5
 }
-if ((shootKey==0 and power_a>0) or (power_a>=120)) and arrows[cur_id]>0{
+if ((shootKey==0 and power_a>0) or (power_a>=80)) and arrows[cur_id]>0{
 	
 	shootimer=weapon.cooldown;
 	
@@ -80,10 +80,10 @@ if ((shootKey==0 and power_a>0) or (power_a>=120)) and arrows[cur_id]>0{
 	with(bulletInst)
 	{	
 		
-		power_a+=(other.power_a div 20)
+		power_a+=(other.power_a div 12)
 		dir+=other.aimdir;
 		maxdist+=other.power_a*2
-		sped+=(other.power_a div 10)
+		sped+=(other.power_a div 7)
 	}
 	power_a=0
 }
