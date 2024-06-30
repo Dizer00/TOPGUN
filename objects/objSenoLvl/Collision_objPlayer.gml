@@ -1,1 +1,1 @@
-room_goto(STGE2Boss);
+room_goto(STGE2CHMO_1);

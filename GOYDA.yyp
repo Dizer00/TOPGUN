@@ -49,6 +49,7 @@
   },
   "name":"GOYDA",
   "resources":[
+    {"id":{"name":"fntMainMenu_1","path":"fonts/fntMainMenu_1/fntMainMenu_1.yy",},},
     {"id":{"name":"fntMainMenu","path":"fonts/fntMainMenu/fntMainMenu.yy",},},
     {"id":{"name":"fntMenuBeta","path":"fonts/fntMenuBeta/fntMenuBeta.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
@@ -127,6 +128,7 @@
     {"id":{"name":"spr_huy","path":"sprites/spr_huy/spr_huy.yy",},},
     {"id":{"name":"sprBlock_1","path":"sprites/sprBlock_1/sprBlock_1.yy",},},
     {"id":{"name":"sprBlock","path":"sprites/sprBlock/sprBlock.yy",},},
+    {"id":{"name":"sprBLYAD","path":"sprites/sprBLYAD/sprBLYAD.yy",},},
     {"id":{"name":"sprBorder","path":"sprites/sprBorder/sprBorder.yy",},},
     {"id":{"name":"sprBullet_1","path":"sprites/sprBullet_1/sprBullet_1.yy",},},
     {"id":{"name":"sprBullet","path":"sprites/sprBullet/sprBullet.yy",},},
@@ -157,6 +159,7 @@
     {"id":{"name":"sprPlayermech","path":"sprites/sprPlayermech/sprPlayermech.yy",},},
     {"id":{"name":"sprSeno1","path":"sprites/sprSeno1/sprSeno1.yy",},},
     {"id":{"name":"sprSeno2","path":"sprites/sprSeno2/sprSeno2.yy",},},
+    {"id":{"name":"sprSerp","path":"sprites/sprSerp/sprSerp.yy",},},
     {"id":{"name":"sprSlayer","path":"sprites/sprSlayer/sprSlayer.yy",},},
     {"id":{"name":"sprtrava","path":"sprites/sprtrava/sprtrava.yy",},},
     {"id":{"name":"sprtrava1","path":"sprites/sprtrava1/sprtrava1.yy",},},
