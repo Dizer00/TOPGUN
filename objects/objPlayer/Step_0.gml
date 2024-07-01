@@ -1,8 +1,6 @@
 // управление
 #region управление
 
-	
-	
 	rightKey = keyboard_check( ord ("D") );
 	upKey = keyboard_check( ord ("W") );
 	leftKey = keyboard_check( ord ("A") );
@@ -11,6 +9,7 @@
 	shiftKey = keyboard_check( vk_lshift );
 	shootKey= mouse_check_button(mb_left);
 	attackKey=0;
+
 
 #endregion
 
@@ -129,6 +128,12 @@ shootimer--;
 	if y+yspd>0 and y+yspd < room_height{
 	y+=yspd;}
 	
+	if((xprevious != x or yprevious != y) and canDust == true){
+	var ranodmTime = irandom_range(-1,-2);
+	alarm_set(0,0+ranodmTime);
+	
+	part_particles_create(objParticleSetup.particle_System, x ,y ,objParticleSetup.particle_Dust,10);
+}
 	
 	// глубина расположения (без использования слоев)
 	depth=-bbox_bottom;

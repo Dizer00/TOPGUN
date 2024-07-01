@@ -27,7 +27,7 @@ invisible=false
 centreYoffset=-30;
 weaponOffestDist=30;
 aimdir=0;
-
+canDust = true;
 
 // спрайты передвижения
 
